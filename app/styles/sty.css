@@ -1,0 +1,23 @@
+
+.greenbar{
+	float: left;
+	width: 15px;
+	height: 86px;
+	background-color: blue;
+}
+
+.header{
+	height: 86px;
+}
+
+.headerlogo{
+	width: 180px;
+	margin-top: 20px;
+
+
+}
+
+.container{
+	width: 100%;
+	margin-padding: 0px;
+}
