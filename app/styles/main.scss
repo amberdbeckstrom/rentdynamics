@@ -12,21 +12,76 @@ a {
     color: #fff;
 }
 
+// @font-face {
+//     font-family: proximanova;
+//     src: local(fonts/ProximaNova-Light),
+//          local(fonts/ProximaNova Light);
+//     font-weight: 100;
+// }
+
+// @font-face {
+//     font-family: proximanova;
+//     src: local(fonts/ProximaNova-Regular),
+//          local(fonts/ProximaNova Regular);
+//     font-weight: 200;
+// }
+
+// @font-face {
+//     font-family: proximanova;
+//     src: local(fonts/ProximaNova-Bold),
+//          local(fonts/ProximaNova Bold);
+//     font-weight: 300;
+// }
+
+// @font-face {
+//     font-family: helvetica;
+//     font-weight: 100;
+//     src: url(fonts/HelveticaNeueLTStd-Roman.otf);
+
+// }
+
+// $font-stack: proxima;
+$primary-color: #444444;
+
+h1 {
+  // font-family: proximanova;
+  // color: $primary-color;
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+.lead{
+  font-weight: 200;
+  font-size: 1.3em;
+}
+
+/* Custom page header */
+.header {
+  position: fixed;
+  width: 100%;
+  height: 86px;
+  background-color: #444444;
+  z-index: 99;
+    .headerlogo {
+      width: 180px;
+      margin-top: 25px;
+      margin-left: 25px;
+    }
+}
+
 .nav > li > a:hover,
 .nav > li > a:focus {
         text-decoration: none;
         background-color: transparent; 
         color: #7BBC28;
-    }
-
+ }
 
  .nav {
     display: none;
-  }
-
-  ul {
-  margin-top: 24px;
-  margin-right: 40px;
+      ul {
+      margin-top: 24px;
+      margin-right: 40px;
+      }
   }
 
 .greenbar{
@@ -36,38 +91,46 @@ a {
   background-color: #7BBC28;
 }
 
-.headerlogo{
-  width: 180px;
-  margin-top: 25px;
-  margin-left: 25px;
-
-}
-
 .menu {
   width: 55px;
   float:right;
   margin-top: 23px;
   margin-right: 23px;
-
 }
+
 .container{
   width: 100%;
   padding: 0px;
+  z-index: 99;
+}
 
+/* Main marketing message and sign up button */
+.firstcontainer {
+  margin-top: 84px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 1;
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+.content{
+  margin-top: 120px;
 }
 
 .img-responsive{
-  margin-top: 0px;
+  margin-top: -190px;
   position: relative;
   z-index: -1; 
 }
 
-.content{
-  position: absolute;
-  margin-top: 20px;
-  z-index: 99;
-  
-
+/* Main marketing message and sign up button */
+.secondcontainer {
+  margin-top: 0px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .browsehappy {
@@ -90,14 +153,6 @@ body {
   padding-right: 15px;
 }
 
-/* Custom page header */
-.header {
-  position: fixed;
-  width: 100%;
-  height: 86px;
-  background-color: #444;
- /* border-bottom: 1px solid #e5e5e5; */
-
   /* Make the masthead heading the same height as the navigation */
   h3 {
     margin-top: 0;
@@ -105,39 +160,21 @@ body {
     line-height: 40px;
     padding-bottom: 19px;
   }
-}
 
 /* Custom page footer */
 .footer {
+  width: 100%;
+  height: 80px;
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
+  background-color: $primary-color;
+  // border-top: 1px solid #e5e5e5;
+  
 }
 
 .container-narrow > hr {
   margin: 30px 0;
 }
-
-/* Main marketing message and sign up button */
-.firstcontainer {
-  margin-top: 84px;
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
-}
-
-/* Main marketing message and sign up button */
-.secondcontainer {
-  margin-top: 0px;
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-
-}
-
-
 
 /* Supporting marketing content */
 .marketing {
@@ -147,52 +184,41 @@ body {
   }
 }
 
+
+
+
+
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 100%;
-  }
-
-.img-responsive{
-  margin-top: 0px;
-  position: relative;
-  z-index: -1; 
+  
+.container {
+   max-width: 100%;
 }
-
-.content{
-  position: absolute;
-  margin-top: 35px;
-  z-index: 99;
-  width: 100%;
-}      
-
-.headerlogo{
-  margin-left: 40px;
-}
-
-  .nav {
-    display: inline-block;
+  
+.header {
+   margin-bottom: 30px;
+     .headerlogo{
+       margin-left: 40px;
+     }
+     .nav {
+       display: inline-block;
+     }
+     .menu{
+       display: none;
+     }
   }
+  
+// .content{
+//   margin-top: 10%;
+//   width: 60%;
+//   margin-left: 20%;
+// }
 
-.menu{
-    display: none;
-  }
+// .img-responsive{
+//   margin-top:-15%;
+//   position: relative;
+//   z-index: -1; 
+// }     
 
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
 }
