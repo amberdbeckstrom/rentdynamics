@@ -12,6 +12,8 @@ a {
     color: #fff;
 }
 
+
+
 // @font-face {
 //     font-family: proximanova;
 //     src: local(fonts/ProximaNova-Light),
@@ -44,6 +46,39 @@ a {
 $primary-color: #444444;
 $secondary-color: #7BBC28;
 
+input{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  height: 47px;
+  width: 65%;
+  // padding-left: 20px;
+  font-size: 1.2em;
+  color:$secondary-color;
+  margin-bottom: 8px;
+}
+ 
+::-webkit-input-placeholder {
+  padding-top: -10px;
+ font-size: 1.2em;
+ // color: #d0cdfa;
+ text-align: center;
+}
+
+input:focus{
+  font-size: 1.2em;
+  color:$secondary-color;
+  box-shadow: none;
+  // box-shadow: 0 0 5px 1px $secondary-color;
+  border:1px solid #ccc;
+  outline: 0;
+}
+
+textarea:focus{
+  outline:0;
+  box-shadow: none;
+}
+
 h1 {
   // font-family: proximanova;
   // color: $primary-color;
@@ -59,8 +94,6 @@ h2 {
   color: $secondary-color;
 }
 
-
-
 .lead{
   margin-top: 15px;
   margin-left: 8%;
@@ -69,13 +102,23 @@ h2 {
   font-size: 1.3em;
 }
 
+
 .leadpoints{
   margin-top: 15px;
   margin-left: 23%;
   margin-right: 23%;
   font-weight: 200;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
+
+.mainpoints{
+  margin-top: 15px;
+  margin-left: 16%;
+  margin-right: 16%;
+  font-weight: 200;
+  font-size: 1.1em;
+}
+
 
 .learn{
   margin-left: 5%;
@@ -160,6 +203,14 @@ h2 {
   z-index: -1; 
 }
 
+.img-responsive-grey{
+  margin-top: -380px;
+  height: 600px;
+  width: 100%;
+  position: relative;
+  z-index: -1; 
+}
+
 .downarrow{
   display: block;
   margin: 0 auto;
@@ -183,7 +234,14 @@ h2 {
 .dividerdots{
   float:left;
   margin: 0 auto;
-  width: 40px;
+  width: 35px;
+}
+
+.greendividerdots{
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 35px;
 }
 
 .dividerline{
@@ -204,9 +262,32 @@ h2 {
 
 /* Main marketing message and sign up button */
 .secondcontainer {
-  margin-top: 70px;
+  margin-top: 0px;
   text-align: center;
+  margin-bottom: 50px;
 }
+
+.secondcontainerbottom {
+  position: relative;
+  margin-top: 90px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.demoinputs{
+  height:175px;
+}
+
+// .phonenumber{
+//   margin-top: 30px;
+// }
+
+.bottomcontainer {
+  margin-top: -210px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
 
 .thirdcontainer {
   margin-top: 70px;
@@ -226,8 +307,35 @@ h2 {
   clear: right;
 }
 
+.dividercontainerbottom {
+  float:left;
+  width: 100%;
+  height: 60px;
+  margin-top: 40%;
+  clear: right;
+}
+
 .greendiagonal{
   width: 100%;
+}
+
+.imac{
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.macbook{
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.phone{
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 60%;
 }
 
 .browsehappy {
