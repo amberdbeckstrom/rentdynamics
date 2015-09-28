@@ -12,6 +12,10 @@ a {
     color: #fff;
 }
 
+a:visited {
+    color: #fff;
+}
+
 .subheader {
   position: fixed;
   width: 100%;
@@ -19,6 +23,7 @@ a {
   height: 52px;
   background-color: #7BBC28;
   z-index: 99;
+  display: none;
 }
 
 
@@ -54,6 +59,10 @@ a {
 $primary-color: #444444;
 $secondary-color: #7BBC28;
 
+// html{
+//   overflow-x: hidden;
+// }
+
 .parallax {
   perspective: 1px;
   height: 35vh;
@@ -62,6 +71,7 @@ $secondary-color: #7BBC28;
   // overflow-y: auto;
   perspective-origin-x: 100%;
 }
+
 .parallax__layer {
   position: absolute;
   top: 0;
@@ -70,6 +80,7 @@ $secondary-color: #7BBC28;
   left: 0px;
   transform-origin-x: 100%;
 }
+
 .parallax__layer--base {
   transform: translateZ(-25);
   margin-top: 500px;
@@ -77,8 +88,9 @@ $secondary-color: #7BBC28;
 
 .parallax__layer--back {
   transform: translateZ(-1px) scale(2);
-
+  overflow-x: hidden;
 }
+
 .parallax__layer--deep {
   transform: translateZ(-1px) scale(3);
 }
@@ -120,10 +132,10 @@ li{
 overflow-x: hidden;
 }
 
-.navigation {
-overflow:auto;
-overflow-y:scroll;
-}
+// .navigation {
+// overflow:auto;
+// overflow-y:scroll;
+// }
 
 /* Navigation Menu - List items */
 .nav-item {
@@ -216,8 +228,6 @@ body {
 	/* Without this, the body has excess horizontal scroll when the menu is open */
   overflow-x: hidden;
 }
-
-
 
 
 input{
@@ -327,7 +337,7 @@ h2 {
 .nav {
     display: none;
   }
-
+  
 .greenbar{
   float: left;
   width: 15px;
@@ -559,9 +569,8 @@ body {
   p + h4 {
     margin-top: 28px;
   }
+  
 }
-
-
 
 
 
@@ -590,6 +599,7 @@ body {
   }
   
   .subheader {
+    display: block;
     z-index: 98;
      .nav {
        margin: 0 auto;
@@ -597,23 +607,35 @@ body {
      }
   }
   
-  // testing{
-  //   width: 450px;
-  //   margin: 0 auto;
-  // }
-  
   .subtxt{
       display: inline;
       width: 100px;
       margin: 0 auto;
-      
-      
+      margin-left: 5%;
+      font-weight: 400;
+      font-size: 1em;
+  }
+  
+  .dropnav{
+    display: block;
+    width: 805px;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+  
+  .sublink:hover {
+    text-decoration: none;
+    color: $primary-color;
   }
 
   
-    label{
+  label{
        display: none;
-     }
+  }
+     
+    a:visited {
+    color: #fff;
+}
      
      
   
