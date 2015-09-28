@@ -65,12 +65,24 @@ $secondary-color: #7BBC28;
 
 .parallax {
   perspective: 1px;
-  height: 35vh;
+  height: 50vh;
   // height: 400px;
   overflow-x: hidden;
-  // overflow-y: auto;
+  overflow-y: scroll;
   perspective-origin-x: 100%;
+  z-index: -1;
 }
+
+// .parallax {
+//   perspective: 1px;
+//   height: 35vh;
+//   // height: 400px;
+//   overflow-x: hidden;
+//   // overflow-y: auto;
+//   perspective-origin-x: 100%;
+//   z-index: 1;
+// }
+
 
 .parallax__layer {
   position: absolute;
@@ -360,7 +372,8 @@ h2 {
 
 /* Main marketing message and sign up button */
 .firstcontainer {
-  margin-top: 124px;
+  display: block;
+  margin-top: 114px;
   text-align: center;
   z-index: 1;
   .btn {
@@ -370,7 +383,7 @@ h2 {
 }
 
 .img-responsive{
-  margin-top: -290px;
+  margin-top: -370px;
   position: relative;
   z-index: -1; 
 }
@@ -398,7 +411,7 @@ h2 {
 }
 
 .centerdivider{
-  width: 55%;
+  width: 60%;
   display: block;
   margin: 0 auto;
 }
@@ -462,7 +475,7 @@ h2 {
 
 
 .thirdcontainer {
-  margin-top: 70px;
+  margin-top: 210px;
   text-align: center;
 }
 
@@ -499,6 +512,7 @@ h2 {
 .greendiagonal{
   width: 100%;
   background-color: transparent;
+  z-index: 101;
 }
 
 .imac{
@@ -571,7 +585,40 @@ body {
   }
   
 }
+/* Responsive: Portrait phones and up */
+@media screen and (min-width: 400px) {
+  
+  .firstcontainer {
+  margin-top: 124px;
+}
 
+  .img-responsive{
+  margin-top: -290px;
+}
+
+.thirdcontainer {
+  margin-top: 70px;
+}
+
+.centerdivider{
+  width: 55%;
+  display: block;
+  margin: 0 auto;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 35vh;
+  // height: 400px;
+  overflow-x: hidden;
+  // overflow-y: auto;
+  perspective-origin-x: 100%;
+  z-index: 1;
+}
+
+
+  
+}
 
 
 
