@@ -275,6 +275,14 @@ h1 {
   font-size: 2.5em;
 }
 
+.onewhite {
+  // font-family: proximanova;
+  // color: $primary-color;
+  font-weight: 400;
+  font-size: 2.5em;
+  color: #fff;
+}
+
 h2 {
   // font-family: proximanova;
   // color: $primary-color;
@@ -300,6 +308,15 @@ h2 {
   margin-right: 8%;
   font-weight: 200;
   font-size: 1.3em;
+}
+
+.leadwhite{
+  margin-top: 15px;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-weight: 200;
+  font-size: 1.3em;
+  color: #fff;
 }
 
 
@@ -456,7 +473,17 @@ h2 {
   width: 30%;
   background-color: $primary-color;
   clear:right;
-  
+}
+
+.dividerlinewhite{
+  float:left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 12px;
+  height: 1px;
+  width: 30%;
+  background-color: #fff;
+  clear:right;
 }
 
 .col-md-3{
