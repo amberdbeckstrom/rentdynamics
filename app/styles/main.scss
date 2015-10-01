@@ -59,39 +59,50 @@ a:visited {
 $primary-color: #444444;
 $secondary-color: #7BBC28;
 
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective-origin-x: 100%;
-}
+// .parallax {
+//   perspective: 1px;
+//   height: 150vh;
+//   overflow-x: hidden;
+//   overflow-y: auto;
+//   perspective-origin-x: 100%;
+// }
 
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform-origin-x: 100%;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-}
+// .parallax__layer {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   transform-origin-x: 100%;
+// }
+// .parallax__layer--base {
+//   transform: translateZ(0);
+// }
 
-.parallax__layer--back {
-  transform: translateZ(-1px) scale(2);
-}
+// .parallax__layer--back {
+//   transform: translateZ(-1px) scale(2);
+// }
 
-.parallax__layer--deep {
-  transform: translateZ(-2px) scale(3);
-}
+// .parallax__layer--deep {
+//   transform: translateZ(-2px) scale(3);
+// }
 
-.parallax__group {
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;
-}
+// .parallax__layer--fore {
+//     -webkit-transform: translateZ(90px) scale(.7);
+//     transform: translateZ(90px) scale(.7);
+//     z-index: 1;
+// }
+
+// .parallax__group {
+//   position: relative;
+//   height: 100vh;
+//   transform-style: preserve-3d;
+// }
+
+// .wow {
+//    visibility: hidden;
+// }
+
 
 /* Navigation Menu - Background */
 .navigation {
@@ -119,9 +130,10 @@ li{
   text-align: center;
 }
 
-.site-wrap{
-overflow-x: hidden;
-}
+// .site-wrap{
+// overflow-x: hidden;
+// z-index: -1;
+// }
 
 // .navigation {
 // overflow:auto;
@@ -157,12 +169,13 @@ overflow-x: hidden;
   /* Critical position and size styles */
   min-height: 100%;
   min-width: 100%;
-  background-color: white; /* Needs a background or else the nav will show through */
+  background-color: #fff; /* Needs a background or else the nav will show through */
   position: relative;
   top: 0;
   bottom: 100%;
   left: 0;
   z-index: 1;
+  padding-bottom: 500px;
   
   /* non-critical apperance styles */
   // padding: 4em;
@@ -370,6 +383,7 @@ h2 {
   width: 100%;
   padding: 0px;
   z-index: 99;
+
 }
 
 /* Main marketing message and sign up button */
@@ -388,6 +402,7 @@ h2 {
   margin-top: -370px;
   position: relative;
   z-index: -1; 
+
 }
 
 .img-responsive-grey{
@@ -454,6 +469,7 @@ h2 {
   text-align: center;
   margin-bottom: 50px;
   z-index: 1;
+  // background-color: white;
 }
 
 .secondcontainerpar {
@@ -491,9 +507,11 @@ h2 {
 }
 
 .fourthcontainer {
+
   width: 100%;
   height: auto;
   z-index: 1;
+      // background-color: #fff;
 }
 
 

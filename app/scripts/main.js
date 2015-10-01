@@ -2,6 +2,7 @@ console.log('\'Allo \'Allo!'); // eslint-disable-line no-console
 
 $(document).ready(function(){
 	
+	
 	$('#greenheader').hide();
 	
 	  // run test on initial page load
@@ -26,10 +27,6 @@ function checkSize(){
 		$('#greenheader').hide();
     }
 }
-
-
-
-
 
 
 });
