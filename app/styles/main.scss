@@ -4,9 +4,9 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-// *{
-//     outline:1px solid red;
-//   }
+*{
+    outline:1px solid red;
+  }
 
 a {
     color: #fff;
@@ -26,87 +26,12 @@ a:visited {
   display: none;
 }
 
-
-// @font-face {
-//     font-family: proximanova;
-//     src: local(fonts/ProximaNova-Light),
-//          local(fonts/ProximaNova Light);
-//     font-weight: 100;
-// }
-
-// @font-face {
-//     font-family: proximanova;
-//     src: local(fonts/ProximaNova-Regular),
-//          local(fonts/ProximaNova Regular);
-//     font-weight: 200;
-// }
-
-// @font-face {
-//     font-family: proximanova;
-//     src: local(fonts/ProximaNova-Bold),
-//          local(fonts/ProximaNova Bold);
-//     font-weight: 300;
-// }
-
-// @font-face {
-//     font-family: helvetica;
-//     font-weight: 100;
-//     src: url(fonts/HelveticaNeueLTStd-Roman.otf);
-
-// }
-
 // $font-stack: proxima;
 $primary-color: #444444;
 $secondary-color: #7BBC28;
 
-// .parallax {
-//   perspective: 1px;
-//   height: 150vh;
-//   overflow-x: hidden;
-//   overflow-y: auto;
-//   perspective-origin-x: 100%;
-// }
-
-// .parallax__layer {
-//   position: absolute;
-//   top: 0;
-//   right: 0;
-//   bottom: 0;
-//   left: 0;
-//   transform-origin-x: 100%;
-// }
-// .parallax__layer--base {
-//   transform: translateZ(0);
-// }
-
-// .parallax__layer--back {
-//   transform: translateZ(-1px) scale(2);
-// }
-
-// .parallax__layer--deep {
-//   transform: translateZ(-2px) scale(3);
-// }
-
-// .parallax__layer--fore {
-//     -webkit-transform: translateZ(90px) scale(.7);
-//     transform: translateZ(90px) scale(.7);
-//     z-index: 1;
-// }
-
-// .parallax__group {
-//   position: relative;
-//   height: 100vh;
-//   transform-style: preserve-3d;
-// }
-
-// .wow {
-//    visibility: hidden;
-// }
-
-
 /* Navigation Menu - Background */
 .navigation {
-  /* critical sizing and position styles */
   width: 200px;
   height: 100%;
   position: fixed;
@@ -114,8 +39,6 @@ $secondary-color: #7BBC28;
   right: 0;
   bottom: 0;
   z-index:-1;
-  
-  /* non-critical appearance styles */
   list-style: none;
   background: $secondary-color;
 }
@@ -130,29 +53,14 @@ li{
   text-align: center;
 }
 
-// .site-wrap{
-// overflow-x: hidden;
-// z-index: -1;
-// }
-
-// .navigation {
-// overflow:auto;
-// overflow-y:scroll;
-// }
-
 /* Navigation Menu - List items */
 .nav-item {
-  /* non-critical appearance styles */
   width: 200px;
-  // border-top: 1px solid #111;
-  // border-bottom: 1px solid #000;
 }
 
 .nav-item a {
-  /* non-critical appearance styles */
   display: block;
   padding: 1em;
-  // background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
   color: white;
   font-size: 1.2em;
   text-decoration: none;
@@ -176,11 +84,6 @@ li{
   left: 0;
   z-index: 1;
   padding-bottom: 500px;
-  
-  /* non-critical apperance styles */
-  // padding: 4em;
-  // background-image: linear-gradient(135deg, rgb(254,255,255) 0%,rgb(221,241,249) 35%,rgb(160,216,239) 100%);
-  // background-size: 200%;
 }
 
 /* Nav Trigger */
@@ -195,19 +98,15 @@ label[for="nav-trigger"] {
   position: fixed;
   right: 20px; top: 20px;
   z-index: 2;
-
-  /* non-critical apperance styles */
   height: 42px;
   width: 57px;
   cursor: pointer;
-  // background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
   background-size: contain;
 }
 
 /* Make the Magic Happen */
 .nav-trigger + label, .site-wrap {
   transition: left 0.2s;
-  
 }
 
 .nav-trigger + label {
@@ -216,7 +115,6 @@ label[for="nav-trigger"] {
 }
 .nav-trigger:checked + label {
   right: 215px;
-  
 }
 
 .nav-trigger:checked ~ .navigation {
@@ -233,14 +131,12 @@ body {
   overflow-x: hidden;
 }
 
-
 input{
   position: relative;
   display: block;
   margin: 0 auto;
   height: 47px;
   width: 65%;
-  // padding-left: 20px;
   font-size: 1.2em;
   color:$secondary-color;
   margin-bottom: 8px;
@@ -250,7 +146,6 @@ input{
 ::-webkit-input-placeholder {
   padding-top: -10px;
  font-size: 1.2em;
- // color: #d0cdfa;
  text-align: center;
 }
 
@@ -269,38 +164,33 @@ textarea:focus{
 }
 
 h1 {
-  // font-family: proximanova;
-  // color: $primary-color;
   font-weight: 400;
   font-size: 2.5em;
 }
 
 .onewhite {
-  // font-family: proximanova;
-  // color: $primary-color;
   font-weight: 400;
   font-size: 2.5em;
   color: #fff;
 }
 
 h2 {
-  // font-family: proximanova;
-  // color: $primary-color;
   font-weight: 400;
   font-size: 1.7em;
   color: $secondary-color;
 }
 
+.phonenumber{
+    color: #fff;
+}
+
 
 .titlecolor {
-  // font-family: proximanova;
-  // color: $primary-color;
   font-weight: 400;
   font-size: 1.7em;
   color: #fff;
   z-index: 102;
 }
-
 
 .lead{
   margin-top: 15px;
@@ -319,7 +209,6 @@ h2 {
   color: #fff;
 }
 
-
 .leadpoints{
   margin-top: 15px;
   margin-left: 23%;
@@ -330,24 +219,16 @@ h2 {
 
 .mainpoints{
   margin-top: 15px;
-  margin-left: 16%;
-  margin-right: 16%;
+  margin-left: 8%;
+  margin-right: 8%;
   font-weight: 200;
   font-size: 1.1em;
   z-index: 101;
 }
-
-.mainpointswhite{
-  color: #fff;
-  margin-top: 15px;
-  margin-left: 16%;
-  margin-right: 16%;
-  font-weight: 200;
-  font-size: 1.1em;
-  z-index: 101;
-}
-
-
+  
+  .pointswhite{
+    color: #fff;
+ }
 
 .learn{
   margin-left: 5%;
@@ -400,7 +281,6 @@ h2 {
   width: 100%;
   padding: 0px;
   z-index: 99;
-
 }
 
 /* Main marketing message and sign up button */
@@ -416,10 +296,9 @@ h2 {
 }
 
 .img-responsive{
-  margin-top: -370px;
+  margin-top: -320px;
   position: relative;
   z-index: -1; 
-
 }
 
 .img-responsive-grey{
@@ -490,17 +369,15 @@ h2 {
   margin-top: 60px;
 }
 
-/* Main marketing message and sign up button */
 .secondcontainer {
   margin-top: 50px;
   text-align: center;
   margin-bottom: 50px;
   z-index: 1;
-  // background-color: white;
 }
 
 .secondcontainerpar {
-  margin-top: -313px;
+  margin-top: -363px;
   text-align: center;
   margin-bottom: 50px;
   z-index: 101;
@@ -508,7 +385,7 @@ h2 {
 
 .secondcontainerbottom {
   position: relative;
-  margin-top: 90px;
+  margin-top: 30px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -527,29 +404,17 @@ h2 {
   margin-bottom: 0px;
 }
 
-
 .thirdcontainer {
-  margin-top: 210px;
+  margin-top: 160px;
   text-align: center;
 }
 
 .fourthcontainer {
-
   width: 100%;
   height: auto;
   z-index: 1;
-      // background-color: #fff;
+  margin-top: -40px;
 }
-
-
-// .fourthcontainertest {
-//   width: 100%;
-//   height: 800px;
-//   overflow-x: hidden;
-//   z-index: 120;
-// }
-
-
 
 .fourthcontainerimage {
   margin-top: -150px;
@@ -565,7 +430,6 @@ h2 {
   height: 60px;
   margin-top: 10%;
   clear: right;
-  // margin-bottom: 30px;
 }
 
 .dividercontainerbottom {
@@ -583,13 +447,10 @@ h2 {
 }
 
 .greendiagonalpar{
-  // position: relative;
-  // margin-top: -220px;
   width: 100%;
   background-color: transparent;
   z-index: 90;
-  height: 400px;
- 
+  height: 450px;
 }
 
 .imac{
@@ -602,6 +463,7 @@ h2 {
   display: block;
   margin: 0 auto;
   width: 70%;
+  margin-top: 143px;
 }
 
 .phone{
@@ -632,7 +494,7 @@ body {
 }
 
   /* Make the masthead heading the same height as the navigation */
-  h3 {
+ h3 {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 40px;
@@ -647,7 +509,6 @@ body {
   color: #777;
   background-color: $primary-color;
   // border-top: 1px solid #e5e5e5;
-  
 }
 
 .container-narrow > hr {
@@ -662,6 +523,7 @@ body {
   }
   
 }
+
 /* Responsive: Portrait phones and up */
 @media screen and (min-width: 400px) {
   
@@ -693,11 +555,46 @@ body {
   z-index: 1;
 }
 
+.thirdcontainer {
+  margin-top: 110px;
+  text-align: center;
+}
 
-  
+/* Main marketing message and sign up button */
+.secondcontainer {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  z-index: 1;
+  // background-color: white;
+}
+
+.secondcontainerpar {
+  margin-top: -377px;
+  text-align: center;
+  margin-bottom: 50px;
+  z-index: 101;
+}
+
+.leadwhite{
+  margin-top: 15px;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-weight: 200;
+  font-size: 1.3em;
+  color: #fff;
 }
 
 
+.leadpoints{
+  margin-top: 15px;
+  margin-left: 23%;
+  margin-right: 23%;
+  font-weight: 200;
+  font-size: 1.1em;
+}
+
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -760,19 +657,5 @@ body {
     a:visited {
     color: #fff;
 }
-     
-     
-  
-// .content{
-//   margin-top: 10%;
-//   width: 60%;
-//   margin-left: 20%;
-// }
-
-// .img-responsive{
-//   margin-top:-15%;
-//   position: relative;
-//   z-index: -1; 
-// }     
 
 }
