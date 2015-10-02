@@ -4,9 +4,9 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-*{
-    outline:1px solid red;
-  }
+// *{
+//     outline:1px solid red;
+//   }
 
 a {
     color: #fff;
@@ -184,7 +184,6 @@ h2 {
     color: #fff;
 }
 
-
 .titlecolor {
   font-weight: 400;
   font-size: 1.7em;
@@ -324,45 +323,68 @@ h2 {
 }
 
 .centerdivider{
-  width: 60%;
-  display: block;
   margin: 0 auto;
+  width: 300px;
+  display: block;
+
 }
 
 .dividerdots{
-  float:left;
-  margin: 0 auto;
+  float: left;
+  // margin: 0 auto;
   width: 35px;
   margin-top: -13px;
 }
+
+.dividerlinewhitefirst{
+  float: left;
+  margin-left: 11%;
+  margin-right: 10px;
+  margin-top: 12px;
+  height: 1px;
+  width: 90px;
+  background-color: #fff;
+  clear:right;
+}
+
+.dividerlinewhite{
+  float: left;
+  margin-left: 10px;
+  // margin-right: 10px;
+  margin-top: 12px;
+  height: 1px;
+  width: 90px;
+  background-color: #fff;
+  clear:right;
+}
+
+.dividerlinefirst{
+  float: left;
+  margin-left: 11%;
+  margin-right: 10px;
+  margin-top: 12px;
+  height: 1px;
+  width: 90px;
+    background-color: $primary-color;
+  clear:right;
+}
+
+.dividerline{
+  float: left;
+  margin-left: 10px;
+  margin-top: 12px;
+  height: 1px;
+  width: 90px;
+  background-color: $primary-color;
+  clear:right;
+}
+
 
 .greendividerdots{
   display: block;
   margin: 0 auto;
   margin-top: 25px;
   width: 35px;
-}
-
-.dividerline{
-  float:left;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 12px;
-  height: 1px;
-  width: 30%;
-  background-color: $primary-color;
-  clear:right;
-}
-
-.dividerlinewhite{
-  float:left;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 12px;
-  height: 1px;
-  width: 30%;
-  background-color: #fff;
-  clear:right;
 }
 
 .col-md-3{
@@ -385,7 +407,7 @@ h2 {
 
 .secondcontainerbottom {
   position: relative;
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -393,10 +415,6 @@ h2 {
 .demoinputs{
   height:175px;
 }
-
-// .phonenumber{
-//   margin-top: 30px;
-// }
 
 .bottomcontainer {
   margin-top: -210px;
@@ -413,7 +431,7 @@ h2 {
   width: 100%;
   height: auto;
   z-index: 1;
-  margin-top: -40px;
+  margin-top: -30px;
 }
 
 .fourthcontainerimage {
@@ -425,7 +443,7 @@ h2 {
 }
 
 .dividercontainer {
-  float:left;
+  float: left;
   width: 100%;
   height: 60px;
   margin-top: 10%;
@@ -433,10 +451,10 @@ h2 {
 }
 
 .dividercontainerbottom {
-  float:left;
+  float: left;
   width: 100%;
-  height: 60px;
-  margin-top: 40%;
+  height: 40px;
+  margin-top: 30%;
   clear: right;
 }
 
@@ -469,7 +487,7 @@ h2 {
 .phone{
   display: block;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 125px;
   width: 60%;
 }
 
@@ -522,6 +540,12 @@ body {
     margin-top: 28px;
   }
   
+button {
+  position: relative;
+  width: 700px;
+  height: 300px;
+}
+  
 }
 
 /* Responsive: Portrait phones and up */
@@ -539,22 +563,6 @@ body {
   margin-top: 70px;
 }
 
-.centerdivider{
-  width: 55%;
-  display: block;
-  margin: 0 auto;
-}
-
-.parallax {
-  perspective: 1px;
-  height: 35vh;
-  // height: 400px;
-  overflow-x: hidden;
-  // overflow-y: auto;
-  perspective-origin-x: 100%;
-  z-index: 1;
-}
-
 .thirdcontainer {
   margin-top: 110px;
   text-align: center;
@@ -566,11 +574,10 @@ body {
   text-align: center;
   margin-bottom: 50px;
   z-index: 1;
-  // background-color: white;
 }
 
 .secondcontainerpar {
-  margin-top: -377px;
+  margin-top: -355px;
   text-align: center;
   margin-bottom: 50px;
   z-index: 101;
@@ -585,13 +592,33 @@ body {
   color: #fff;
 }
 
-
 .leadpoints{
   margin-top: 15px;
   margin-left: 23%;
   margin-right: 23%;
   font-weight: 200;
   font-size: 1.1em;
+}
+
+.macbook{
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 193px;
+}
+
+.phone{
+  display: block;
+  margin: 0 auto;
+  margin-top: 170px;
+  width: 60%;
+}
+
+.dividercontainerbottom {
+  width: 100%;
+  height: 40px;
+  margin-top: 20%;
+  clear: right;
 }
 
 }
@@ -657,5 +684,6 @@ body {
     a:visited {
     color: #fff;
 }
+
 
 }
