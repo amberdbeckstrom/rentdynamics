@@ -4,9 +4,9 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-// *{
-//     outline:1px solid red;
-//   }
+*{
+    outline:1px solid red;
+  }
 
 a {
     color: #fff;
@@ -295,7 +295,7 @@ h2 {
 }
 
 .img-responsive{
-  margin-top: -320px;
+  margin-top: -360px;
   position: relative;
   z-index: -1; 
 }
@@ -413,17 +413,18 @@ h2 {
 }
 
 .demoinputs{
+  margin-top: 8%;
   height:175px;
 }
 
 .bottomcontainer {
-  margin-top: -210px;
+  margin-top: -240px;
   text-align: center;
   margin-bottom: 0px;
 }
 
 .thirdcontainer {
-  margin-top: 160px;
+  margin-top: 210px;
   text-align: center;
 }
 
@@ -488,7 +489,7 @@ h2 {
   display: block;
   margin: 0 auto;
   margin-top: 125px;
-  width: 60%;
+  width: 100%;
 }
 
 .browsehappy {
@@ -540,11 +541,15 @@ body {
     margin-top: 28px;
   }
   
-button {
+#demob {
+  display: none;
+  color: blue;
+  background-image: none;
   position: relative;
-  width: 700px;
-  height: 300px;
+  width: 900px;
+  height: 400px;
 }
+
   
 }
 
@@ -556,7 +561,7 @@ button {
 }
 
   .img-responsive{
-  margin-top: -290px;
+  margin-top: -355px;
 }
 
 .thirdcontainer {
@@ -564,8 +569,16 @@ button {
 }
 
 .thirdcontainer {
-  margin-top: 110px;
+  margin-top: 150px;
   text-align: center;
+}
+
+// .firstcontainer{
+//   height: 700px;
+// }
+
+.arrow{
+  margin-top: 100px;
 }
 
 /* Main marketing message and sign up button */
@@ -611,7 +624,7 @@ button {
   display: block;
   margin: 0 auto;
   margin-top: 170px;
-  width: 60%;
+  width: 55%;
 }
 
 .dividercontainerbottom {
@@ -625,6 +638,10 @@ button {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
+  
+.navigation{
+  display:none;
+}
   
 .container {
    max-width: 100%;
@@ -685,5 +702,140 @@ button {
     color: #fff;
 }
 
+.phone{
+  display: block;
+  margin: 0 auto;
+  margin-top: 125px;
+  width: 35%;
+}
 
+.macbook{
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 143px;
+}
+
+.imac{
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.col-md-3{
+  margin-left: 6%;
+}
+
+.greendiagonalpar{
+  width: 100%;
+  background-color: transparent;
+  z-index: 90;
+  height: 450px;
+}
+
+input{
+  width: 45%;
+  color:$secondary-color;
+}
+
+.demoinputs{
+  margin-top: 4%;
+  height:175px;
+}
+
+.secondcontainerpar {
+  margin-top: -41%;
+  text-align: center;
+  margin-bottom: 50px;
+  z-index: 101;
+}
+
+
+
+}
+
+
+/* Deskstop and up */
+@media screen and (min-width: 1024px) {
+  
+  .phone{
+  display: block;
+  margin: 0 auto;
+  margin-top: 125px;
+  width: 27%;
+}
+  
+  .macbook{
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+  margin-top: 143px;
+}
+
+.imac{
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.col-md-3{
+  margin-left: 6%;
+}
+
+.greendiagonalpar{
+  width: 100%;
+  background-color: transparent;
+  z-index: 90;
+  height: 450px;
+}
+
+input{
+  width: 35%;
+  color:$secondary-color;
+}
+
+// .bottomcontainer {
+//   margin-top: -240px;
+//   text-align: center;
+//   margin-bottom: 0px;
+//   height: 700px;
+// }  
+  
+  .img-responsive-grey{
+  margin-top: -380px;
+  height: 650px;
+  width: 100%;
+  position: relative;
+  z-index: -1; 
+}
+
+.secondcontainerpar {
+  margin-top: -32%;
+  text-align: center;
+  margin-bottom: 50px;
+  z-index: 101;
+}
+
+}
+
+@media screen and (min-width: 1440px) {
+  
+  .secondcontainerpar {
+  margin-top: -21%;
+  text-align: center;
+  margin-bottom: 50px;
+  z-index: 101;
+}
+
+.phone{
+  display: block;
+  margin: 0 auto;
+  margin-top: 125px;
+  width: 20%;
+}
+  
+  
+  
+  
+  
 }
