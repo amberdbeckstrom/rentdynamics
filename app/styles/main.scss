@@ -432,7 +432,7 @@ h2 {
   width: 100%;
   height: auto;
   z-index: 1;
-  margin-top: -30px;
+  margin-top: -20px;
 }
 
 .fourthcontainerimage {
@@ -481,7 +481,7 @@ h2 {
 .macbook{
   display: block;
   margin: 0 auto;
-  width: 70%;
+  width: 77%;
   margin-top: 143px;
 }
 
@@ -489,7 +489,7 @@ h2 {
   display: block;
   margin: 0 auto;
   margin-top: 125px;
-  width: 100%;
+  width: 77%;
 }
 
 .browsehappy {
@@ -636,6 +636,40 @@ body {
 
 }
 
+@media screen and (min-width: 640px) {
+  
+.img-responsive{
+  margin-top: -455px;
+}
+  
+.content{
+  margin-top:250px;
+}
+
+h1 {
+  color: $secondary-color;
+}
+
+.thirdcontainer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.greendiagonalpar{
+  margin-top: 30px;
+  width: 100%;
+  height: 450px;
+}
+
+.secondcontainerpar {
+  margin-top: -322px;
+  text-align: center;
+  margin-bottom: 50px;
+  z-index: 101;
+}
+  
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   
@@ -723,7 +757,8 @@ body {
 }
 
 .col-md-3{
-  margin-left: 6%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .greendiagonalpar{
@@ -750,10 +785,35 @@ input{
   z-index: 101;
 }
 
+.fourthcontainer {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.arrow{
+  margin-top: 50px;
+}
+
+.img-responsive{
+  margin-top: -420px;
+}
+
+.thirdcontainer {
+  margin-top: -20px;
+  text-align: center;
+}
 
 
 }
 
+@media screen and (min-width: 993px) {
+.col-md-3{
+  margin-left: 6.5%;
+  margin-right: 0;
+}
+}
 
 /* Deskstop and up */
 @media screen and (min-width: 1024px) {
@@ -765,7 +825,7 @@ input{
   width: 27%;
 }
   
-  .macbook{
+ .macbook{
   display: block;
   margin: 0 auto;
   width: 35%;
@@ -815,6 +875,44 @@ input{
   margin-bottom: 50px;
   z-index: 101;
 }
+
+.lead{
+  margin-top: 15px;
+  margin-left: 23%;
+  margin-right: 23%;
+  font-weight: 200;
+  font-size: 1.3em;
+}
+
+.leadwhite{
+  margin-top: 15px;
+  margin-left: 23%;
+  margin-right: 23%;
+  font-weight: 200;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+.leadpoints{
+  margin-top: 15px;
+  margin-left: 23%;
+  margin-right: 23%;
+  font-weight: 200;
+  font-size: 1.1em;
+}
+
+.mainpoints{
+  margin-top: 15px;
+  margin-left: 23%;
+  margin-right: 23%;
+  font-weight: 200;
+  font-size: 1.1em;
+  z-index: 101;
+}
+  
+  .pointswhite{
+    color: #fff;
+ }
 
 }
 
