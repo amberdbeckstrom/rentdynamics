@@ -4,9 +4,9 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-*{
-    outline:1px solid red;
-  }
+// *{
+//     outline:1px solid red;
+//   }
 
 .secondcontainerpartest {
   display:none; 
@@ -17,6 +17,10 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 }
 
 .macbookgreen{
+  display: none;
+}
+
+.macbookblue{
   display: none;
 }
 
@@ -526,6 +530,13 @@ h2 {
   width: 77%;
 }
 
+.phonerent{
+  display: block;
+  margin: 0 auto;
+  margin-top: 125px;
+  width: 30%;
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -769,6 +780,13 @@ body {
   width: 55%;
 }
 
+.phonerent{
+  display: block;
+  margin: 0 auto;
+  margin-top: 170px;
+  width: 50%;
+}
+
 .dividercontainerbottom {
   width: 100%;
   height: 40px;
@@ -879,6 +897,13 @@ h1 {
 .secondcontainerpargreen{
   display: none;
 }
+
+.phonerent{
+  display: block;
+  margin: 0 auto;
+  margin-top: 230px;
+  width: 32%;
+}
   
 }
 
@@ -974,6 +999,14 @@ h1 {
   width: 30%;
 }
 
+.phonerent{
+  display: block;
+  margin: 0 auto;
+  margin-top: 230px;
+  width: 30%;
+}
+
+
 .macbook{
   display: block;
   margin: 0 auto;
@@ -996,7 +1029,7 @@ h1 {
   width: 100%;
   background-color: transparent;
   z-index: 90;
-  height: 450px;
+  height: 20%;
 }
 
 input{
@@ -1067,6 +1100,20 @@ input{
 .secondcontainerpargreen{
   display: none;
 }
+
+.secondcontainerpar {
+  margin-top: -40%;
+  text-align: center;
+  margin-bottom: 50px;
+  z-index: 101;
+}
+
+.greendiagonalpar{
+  width: 100%;
+  background-color: transparent;
+  z-index: 90;
+  height: 20%;
+}
 }
 
 /* Deskstop and up */
@@ -1075,8 +1122,15 @@ input{
 .phone{
   display: block;
   margin: 0 auto;
-  margin-top: 245px;
+  margin-top: 135px;
   width: 27%;
+}
+
+.phonerent{
+  display: block;
+  margin: 0 auto;
+  margin-top: 135px;
+  width: 23%;
 }
 
 .thirdcontainer{
@@ -1179,9 +1233,24 @@ input{
 
  .macbookgreen{
   display: block;
-  width: 67%;
+  width: 85%;
   margin-top: 0px;
   z-index: 101;
+}
+
+ .macbookblue{
+  display: block;
+  width: 100%;
+  margin-top: 0px;
+  z-index: 90;
+}
+
+.holding{
+   position: relative;
+   z-index: 101;
+   width: 100%;
+   height: 400px;
+   margin-top: -150px;
 }
 
 .mainpointstest{
@@ -1213,20 +1282,13 @@ input{
   z-index: 102;
 }
 
-.holding{
-   position: relative;
-   z-index: 101;
-   width: 100%;
-   height: 400px;
-}
-
 .secondcontainerpartest {
   display: block;
   // float: left;
-  margin-left: 22%;
-  margin-top: -88%;
+  margin-left: 12%;
+  margin-top: -64%;
   text-align: center;
-  margin-bottom: -350px;
+  margin-bottom: -425px;
   z-index: 101;
   width: 45%;
 }
@@ -1236,7 +1298,7 @@ input{
   position: relative;
   // float: left;
   // margin-top: -450px;
-  margin-left: 48%;
+  margin-left: 43%;
   width: 49%;
   height: auto;
   z-index: 1;
@@ -1247,10 +1309,10 @@ input{
 .secondcontainerpartestright {
   display: block;
   // float: left;
-  margin-left: 50%;
-  margin-top: -88%;
+  margin-left: 52%;
+  margin-top: -65%;
   text-align: center;
-  margin-bottom: -410px;
+  margin-bottom: -445px;
   z-index: 101;
   width: 45%;
 }
@@ -1260,11 +1322,11 @@ input{
   position: relative;
   // float: left;
   // margin-top: -450px;
-  margin-left: 12%;
+  margin-left: 5%;
   width: 49%;
   height: auto;
   z-index: 1;
-  margin-top: 10px;
+  // margin-top: -55px;
   z-index: 101;
 }
 
@@ -1283,7 +1345,7 @@ input{
   width: 100%;
   background-color: transparent;
   z-index: 90;
-  height: 950px;
+  height: 45%;
 }
 
 input{
@@ -1401,6 +1463,59 @@ input{
     z-index: -1;
 }
 
+.greendiagonalpar{
+  width: 100%;
+  background-color: transparent;
+  z-index: 90;
+  height: 30%;
+}
+
+.secondcontainerpartest {
+  display: block;
+  // float: left;
+  margin-left: 18%;
+  margin-top: -58%;
+  text-align: center;
+  margin-bottom: -455px;
+  z-index: 101;
+  width: 45%;
+}
+
+.secondcontainerpargreen {
+  display: block;
+  position: relative;
+  // float: left;
+  // margin-top: -450px;
+  margin-left: 40%;
+  width: 49%;
+  height: auto;
+  z-index: 1;
+  margin-top: 10px;
+  z-index: 101;
+}
+
+.secondcontainerpartestright {
+  display: block;
+  margin-left: 52%;
+  margin-top: -62%;
+  text-align: center;
+  margin-bottom: -455px;
+  z-index: 101;
+  width: 45%;
+}
+
+.secondcontainerparblue {
+  display: block;
+  position: relative;
+  margin-left: 5%;
+  width: 49%;
+  height: auto;
+  z-index: 1;
+  margin-top: -50px;
+  z-index: 101;
+}
+
+
 }
 
 
@@ -1439,7 +1554,100 @@ input{
   margin: 0 auto;
   margin-top: 125px;
   width: 20%;
+}
+
+.phonerent{
+  display: block;
+  margin: 0 auto;
+  margin-top: 125px;
+  width: 20%;
+}
+  
+}
+
+
+@media screen and (min-width: 1600px) {
+
+.greendiagonalpar{
+  width: 100%;
+  background-color: transparent;
+  z-index: 90;
+  height: 35%;
+}
+
+.secondcontainerpartest {
+  display: block;
+  // float: left;
+  margin-left: 18%;
+  margin-top: -49%;
+  text-align: center;
+  margin-bottom: -585px;
+  z-index: 101;
+  width: 45%;
+}
+
+.secondcontainerpargreen {
+  display: block;
+  position: relative;
+  // float: left;
+  // margin-top: -450px;
+  margin-left: 40%;
+  width: 49%;
+  height: auto;
+  z-index: 1;
+  margin-top: 10px;
+  z-index: 101;
+}
+
+.secondcontainerpartestright {
+  display: block;
+  margin-left: 52%;
+  margin-top: -53%;
+  text-align: center;
+  margin-bottom: -580px;
+  z-index: 101;
+  width: 45%;
+}
+
+.secondcontainerparblue {
+  display: block;
+  position: relative;
+  margin-left: 5%;
+  width: 49%;
+  height: auto;
+  z-index: 1;
+  margin-top: -50px;
+  z-index: 101;
 } 
+
+}
+
+@media screen and (min-width: 1600px) {
+  
+  
+  .lead{
+  margin-top: 15px;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-weight: 200;
+  font-size: 1.3em;
+}
+
+.mainpoints{
+  margin-top: 15px;
+  margin-left: 27%;
+  margin-right: 27%;
+  font-weight: 200;
+  font-size: 1.1em;
+  z-index: 101;
+}
+
+.phonerent{
+  display: block;
+  margin: 0 auto;
+  margin-top: 175px;
+  width: 15%;
+}
   
   
   
