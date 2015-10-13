@@ -56,6 +56,7 @@ $secondary-color: #7BBC28;
 
 /* Navigation Menu - Background */
 .navigation {
+  margin-top: 80px;
   width: 200px;
   height: 100%;
   position: fixed;
@@ -124,7 +125,7 @@ label[for="nav-trigger"] {
   /* critical positioning styles */
   position: fixed;
   right: 20px; top: 20px;
-  z-index: 2;
+  z-index: 122;
   height: 42px;
   width: 57px;
   cursor: pointer;
@@ -132,15 +133,15 @@ label[for="nav-trigger"] {
 }
 
 /* Make the Magic Happen */
-.nav-trigger + label, .site-wrap {
+.nav-trigger, .site-wrap {
   transition: left 0.2s;
 }
 
-.nav-trigger + label {
+.nav-trigger .site-wrap {
   right: 15px;
   transition: right 0.2s;
 }
-.nav-trigger:checked + label {
+.nav-trigger:checked, .site-wrap {
   right: 215px;
 }
 
@@ -151,6 +152,11 @@ label[for="nav-trigger"] {
 .nav-trigger:checked ~ .site-wrap {
   left: -200px;
   box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.nav-trigger:checked ~ .container {
+  left: -200px;
+  // box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
 }
 
 body {
@@ -171,7 +177,7 @@ input{
 }
  
 ::-webkit-input-placeholder {
-  padding-top: -10px;
+ padding-top: -10px;
  font-size: 1.2em;
  text-align: center;
 }
