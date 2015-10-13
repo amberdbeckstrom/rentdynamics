@@ -4,6 +4,7 @@ $(document).ready(function(){
 	
 	
 	$('#greenheader').hide();
+	$('#smenu').hide();
 	
 	  // run test on initial page load
     checkSize();
@@ -19,8 +20,15 @@ $(document).ready(function(){
 			
 		});
 	});
+	
+	//Accordian Menu2
+	$('#accord[href="#"]').click(function(){
+		$('#smenu').toggle();
+			
+	});
 
-	//Function to the css rule
+
+	//hides the menu if it is smaller than 746
 function checkSize(){
     if ($(window).width() <= 746){
         // your code here

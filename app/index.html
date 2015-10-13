@@ -21,6 +21,7 @@
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
     <link rel="stylesheet" href="styles/animate.css">
+    <!--<link rel="stylesheet" href="styles/jquery-ui.min.css">-->
     
   </head>
   <body>
@@ -55,14 +56,23 @@
      </div>
      
      
-     <div class="navigation">
-<ul>
-	<li class="nav-item"><a href="#">SERVICES</a></li>
-	<li class="nav-item"><a href="#">COMPANY</a></li>
-	<li class="nav-item"><a href="demo.html">DEMO</a></li>
-	<li class="nav-item"><a href="#">LOGIN2</a></li>
-	<!--<li class="nav-item"><a href="#">Contact</a></li>-->
-</ul>
+<div class="navigation" id="navigation">
+  <ul>
+	 <li class="nav-item"><a href="#" id="accord" class="sublink">SERVICES</a></li>
+   
+        <div id="smenu">
+            <li class="nav-item smnav"><a class="sublink" href="#">CONTACT CENTER</a></li>
+            <li class="nav-item smnav"><a href="#">LEAD MANAGEMENT</a></li>
+            <li class="nav-item smnav"><a href="#">RENTPLUS</a></li>
+            <li class="nav-item smnav"><a href="#">REPUTATION</a></li>
+            <li class="nav-item smnav"><a href="#">TEXTMESGIT</a></li>
+       </div>
+   
+	 <li class="nav-item"><a href="#">COMPANY</a></li>
+	 <li class="nav-item"><a href="demo.html">DEMO</a></li>
+	 <li class="nav-item"><a href="#">LOGIN2</a></li>
+	 <!--<li class="nav-item"><a href="#">Contact</a></li>-->
+  </ul>
 </div>
 
 <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -71,18 +81,15 @@
 
 <div class="site-wrap">
 
-
-
-
       <div class="firstcontainer">
-        <div class="content wow animated fadeIn" data-wow-duration="3200ms" data-wow-delay=".5s">
+          <div class="content wow animated fadeIn" data-wow-duration="3200ms" data-wow-delay=".5s">
         <h1 class="whyrent">Why Rent Dynamics?</h1>
         <p class="lead"> Welcome to the future of multifamily leasing! Rent Dynamics provides a full suite of services that will forever change the way you communicate with leads and residents.</p>
         </div>
-            <div class="arrow wow animated fadeIn" data-wow-duration="3200ms" data-wow-delay="3s">
-              <h6 class="learn">See Why</h6>
-              <img class="downarrow"src="images/downarrow.png"/>
-            </div>
+        <div class="arrow wow animated fadeIn" data-wow-duration="3200ms" data-wow-delay="3s">
+          <h6 class="learn">See Why</h6>
+          <img class="downarrow"src="images/downarrow.png"/>
+        </div>
           <div class="gradetest wow animated fadeIn" data-wow-duration="3200ms" data-wow-delay=".5s"></div>
           <img class="img-responsive"src="images/home2.png"/>
       </div>
@@ -102,7 +109,7 @@
          <img class="dataicon"src="images/rateicon.png"/>
          <h2>Flat Rate Pricing</h2>
          <p class="leadpoints">No more complicated pricing structures. Our flat rate pricing is simple, affordable, and easy to understand.</p>
-      </div>
+       </div>
      </div>
      
      <!--<div class="fourthcontainer wow animated fadeInUp" data-wow-duration="1200ms">
@@ -235,13 +242,13 @@
          <img class="img-responsive-grey"src="images/greybck.png"/>
        </div>
        
-   </div> 
+ 
 <!--</div>  -->
       <div class="footer">
         <p><span class="glyphicon"></span>&#169; 2015 Rent Dynamics</p>
       </div>
     </div>
-  
+   </div>  
     
 </div>    
 </div>    
@@ -272,6 +279,8 @@
     
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <script src="scripts/jquery-ui.min.js"></script>
+    <script src="scripts/jquery.js"></script>
     <!-- endbuild -->
     
     <!--<script src="bower_components/dist/wow.js"></script>-->
