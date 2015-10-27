@@ -352,6 +352,7 @@ h2 {
   .btn {
     font-size: 21px;
     padding: 14px 24px;
+    // margin-top: 200px;
   }
 }
 
@@ -375,7 +376,7 @@ h2 {
 
 .img-responsive-grey{
   margin-top: -380px;
-  height: 600px;
+  height: 650px;
   width: 100%;
   position: relative;
   z-index: -1; 
@@ -509,18 +510,25 @@ h2 {
 }
 
 .demoinputs{
-  margin-top: 8%;
+  margin-top: 7%;
   height:175px;
+  margin-bottom: 60px;
 }
 
 .bottomcontainer {
-  margin-top: -240px;
+  margin-top: -280px;
   text-align: center;
   margin-bottom: 0px;
 }
 
 .thirdcontainer {
-  margin-top: 180px;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.thirdcontainercompany {
+  margin-top: -40px;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -549,7 +557,7 @@ h2 {
   width: 100%;
   height: auto;
   z-index: 1;
-  margin-top: 20px;
+  margin-top: -20px;
 }
 
 .fourthcontainerimage {
@@ -665,86 +673,6 @@ body {
     margin-top: 28px;
   }
   
-  
-// .btn2 {
-//   display: inline-block;
-//   margin-bottom: 0;
-//   font-weight: normal;
-//   text-align: center;
-//   vertical-align: middle;
-//   -ms-touch-action: manipulation;
-//       touch-action: manipulation;
-//   cursor: pointer;
-//   background-image: none;
-//   border: 1px solid transparent;
-//   white-space: nowrap;
-//   padding: 6px 12px;
-//   font-size: 14px;
-//   line-height: 1.428571429;
-//   border-radius: 4px;
-//   -webkit-user-select: none;
-//   -moz-user-select: none;
-//   -ms-user-select: none;
-//   user-select: none; }
-
-// .btn-primary2 {
-//   color: #fff;
-//   background-color: #45AAF2;
-//   border-color: #2B91D9; }
-//   .btn-primary:focus,
-//   .btn-primary.focus {
-//     color: #fff;
-//     background-color: #45AAF2;
-//     border-color: #2B91D9; }
-//   .btn-primary:hover {
-//     color: #fff;
-//     background-color: #6EBBF2;
-//     border-color: #45AAF2; }
-//   .btn-primary:active,
-//   .btn-primary.active,
-//   .open > .btn-primary.dropdown-toggle {
-//     color: #fff;
-//     background-color: #45AAF2;
-//     border-color: #204d74; }
-//     .btn-primary:active:hover,
-//     .btn-primary:active:focus,
-//     .btn-primary:active.focus,
-//     .btn-primary.active:hover,
-//     .btn-primary.active:focus,
-//     .btn-primary.active.focus,
-//     .open > .btn-primary.dropdown-toggle:hover,
-//     .open > .btn-primary.dropdown-toggle:focus,
-//     .open > .btn-primary.dropdown-toggle.focus {
-//       color: #fff;
-//       background-color: #45AAF2;
-//       border-color: #122b40; }
-//   .btn-primary:active,
-//   .btn-primary.active,
-//   .open > .btn-primary.dropdown-toggle {
-//     background-image: none; }
-//   .btn-primary.disabled,
-//   .btn-primary.disabled:hover,
-//   .btn-primary.disabled:focus,
-//   .btn-primary.disabled.focus,
-//   .btn-primary.disabled:active,
-//   .btn-primary.disabled.active,
-//   .btn-primary[disabled],
-//   .btn-primary[disabled]:hover,
-//   .btn-primary[disabled]:focus,
-//   .btn-primary[disabled].focus,
-//   .btn-primary[disabled]:active,
-//   .btn-primary[disabled].active,
-//   fieldset[disabled] .btn-primary,
-//   fieldset[disabled] .btn-primary:hover,
-//   fieldset[disabled] .btn-primary:focus,
-//   fieldset[disabled] .btn-primary.focus,
-//   fieldset[disabled] .btn-primary:active,
-//   fieldset[disabled] .btn-primary.active {
-//     background-color: #45AAF2;
-//     border-color: #2e6da4; }
-//   .btn-primary .badge {
-//     color: #45AAF2;
-//     background-color: #fff; }
 
 }
 
@@ -813,6 +741,11 @@ body {
 }
 
 .thirdcontainer {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.thirdcontainercompany {
   margin-top: 150px;
   text-align: center;
 }
@@ -999,6 +932,11 @@ h1 {
 }
 
 .thirdcontainer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.thirdcontainercompany {
   margin-top: 100px;
   text-align: center;
 }
@@ -1206,7 +1144,7 @@ input{
 }
 
 .demoinputs{
-  margin-top: 4%;
+  margin-top: 2%;
   height:175px;
 }
 
@@ -1238,6 +1176,11 @@ input{
 }
 
 .thirdcontainer {
+  margin-top: -20px;
+  text-align: center;
+}
+
+.thirdcontainercompany {
   margin-top: -20px;
   text-align: center;
 }
@@ -1342,6 +1285,11 @@ input{
 .thirdcontainer{
   height: 400px;
 }
+
+.thirdcontainercompany{
+  height: 400px;
+}
+
 
 .fourthcontainerrent {
   width: 100%;
@@ -1654,6 +1602,12 @@ input{
 //   color: #fff;
 // }
  
+ .fourthcontainerdemo {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  margin-top: -60px;
+}
 
 }
 
@@ -1766,7 +1720,7 @@ input{
   width: 100%;
   height: auto;
   z-index: 1;
-  margin-top: -50px;
+  margin-top: -60px;
 }
 
 .fourthcontainerrent {
