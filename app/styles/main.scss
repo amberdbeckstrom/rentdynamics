@@ -11,6 +11,28 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
  .rentpoints2{
   margin-top: 220px;
 }
+
+.phonelink:link{
+  text-decoration: none;
+  color: white;
+}
+
+.phonelink:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.phonelink:visited{
+  text-decoration: none;
+  color: white;
+}
+
+.phonelink:active{
+  text-decoration: none;
+  color: white;
+}
+
+
  
 .col-sm-2{
   margin-top: 70px;
@@ -50,10 +72,16 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 a {
     color: #fff;
+    text-decoration: none;
 }
 
 a:visited {
     color: #fff;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 .rentpoints{
@@ -85,6 +113,29 @@ a:visited {
 // $font-stack: proxima;
 $primary-color: #444444;
 $secondary-color: #7BBC28;
+
+.fontlink:link{
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+.frontlink:hover{
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+.frontlink:visited{
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+.frontlink:active{
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+
+
 
 /* Navigation Menu - Background */
 .navigation {
@@ -763,6 +814,8 @@ body {
  .companypoints2{
   margin-top: 210px;
 }
+
+
  
 
 }
