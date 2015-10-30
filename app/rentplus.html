@@ -160,18 +160,21 @@
         </div>
         </div>
     
-       <div class="secondcontainerbottom">
+        <div class="secondcontainerbottom">
         <h1 class="onewhite">Get a Demo</h1>
         <p class="leadwhite">Happy Residents Ahead.</p>
-       <div class="demoinputs">
-       <input type="text" name="fname" placeholder="Name"></input>
-       <input type="text" name="fname" placeholder="Company"></input>
-       <input type="text" name="fname" placeholder="Email"></input>
-       <input type="text" name="fname" placeholder="Phone"></input>
-       </div>
-       <button class="btn btn-default" type="submit">Submit</button>
+        
+       <form class="demoinputs" id="subdemo" action="" method="post">
+       <fieldset>
+       <input type="text" id="name" name="name" placeholder="Name" required="required"></input>
+       <input type="text" id="comp" name="comp" placeholder="Company"></input>
+       <input type="email" id="email" name="email" placeholder="Email" required="required"></input>
+       <input type="text" id="phone" name="phone" placeholder="Phone"></input>
+       </fieldset>
+       <button class="btn btn-default" id="sub" type="submit" value="submit">Submit</button>
+       </form>
        <h2 class="phonenumber"><a class="phonelink" href="tel://866-513-7368">Call 866-513-7368</a></h2>
-       </div>      
+       </div>       
        
        <div class="bottomcontainer">
          <img class="img-responsive-grey"src="images/greybck.png"/>

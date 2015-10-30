@@ -33,6 +33,8 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 }
 
 
+
+
  
 .col-sm-2{
   margin-top: 70px;
@@ -130,6 +132,26 @@ $secondary-color: #7BBC28;
 }
 
 .frontlink:active{
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+.phonelinkdemo:link{
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+.phonelinkdemo:hover{
+  text-decoration: none;
+   color: $secondary-color;
+}
+
+.phonelinkdemo:visited{
+  text-decoration: none;
+   color: $secondary-color;
+}
+
+.phonelinkdemo:active{
   text-decoration: none;
   color: $secondary-color;
 }
@@ -314,10 +336,11 @@ h2 {
 
 .phonenumber{
     color: #fff;
+    margin-top: 120px;
 }
 
 .phonenumberdemo{
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 50px;
     color: $secondary-color;
 }
@@ -429,9 +452,16 @@ h2 {
   .btn {
     font-size: 21px;
     padding: 14px 24px;
-    // margin-top: 200px;
   }
 }
+
+fieldset{
+  margin-bottom: 20px;
+}
+
+// form{
+//   margin-bottom: 170px;
+// }
 
 .img-responsive{
   margin-top: -400px;
@@ -814,9 +844,6 @@ body {
  .companypoints2{
   margin-top: 210px;
 }
-
-
- 
 
 }
 
