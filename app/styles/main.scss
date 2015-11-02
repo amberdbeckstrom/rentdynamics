@@ -1,3 +1,4 @@
+
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 // bower:scss
@@ -8,7 +9,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 //     outline:1px solid red;
 //   }
   
- .rentpoints2{
+.rentpoints2{
   margin-top: 220px;
 }
 
@@ -32,10 +33,6 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
   color: white;
 }
 
-
-
-
- 
 .col-sm-2{
   margin-top: 70px;
 }
@@ -98,10 +95,6 @@ a:hover {
    margin-top: 80px;
 }
 
-// .secondcontainerparrent{
-//   margin-top: 150px;
-// }
-
 .subheader {
   position: fixed;
   width: 100%;
@@ -115,6 +108,14 @@ a:hover {
 // $font-stack: proxima;
 $primary-color: #444444;
 $secondary-color: #7BBC28;
+
+h1 {
+  font-family: proxima_nova_rgregular;
+  // font-family: proxima_nova_ltlight, sans-serif;
+  // font-weight: 600;
+  font-size: 2.5em;
+  color: $secondary-color;
+}
 
 .fontlink:link{
   text-decoration: none;
@@ -155,8 +156,6 @@ $secondary-color: #7BBC28;
   text-decoration: none;
   color: $secondary-color;
 }
-
-
 
 
 /* Navigation Menu - Background */
@@ -268,6 +267,7 @@ label[for="nav-trigger"] {
 body {
 	/* Without this, the body has excess horizontal scroll when the menu is open */
   overflow-x: hidden;
+  font-family: 'proxima_nova_ltlight';
 }
 
 input{
@@ -302,12 +302,6 @@ textarea:focus{
   box-shadow: none;
 }
 
-h1 {
-  font-weight: 200;
-  font-size: 2.5em;
-  color: $secondary-color;
-}
-
 .footerco {
   padding-left: 15px;
   padding-right: 15px;
@@ -319,17 +313,20 @@ h1 {
   text-align: center;
   z-index: 120;
 }
-  
 
+.services{
+  font-weight: 600;
+}
+  
 .onewhite {
   position: relative;
-  font-weight: 400;
-  font-size: 2.5em;
+  font-weight: 600;
+  font-size: 3em;
   color: #fff;
 }
 
 h2 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.7em;
   color: $secondary-color;
 }
@@ -346,7 +343,7 @@ h2 {
 }
 
 .titlecolor {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.7em;
   color: #fff;
   z-index: 102;
@@ -364,7 +361,7 @@ h2 {
   margin-top: 15px;
   margin-left: 8%;
   margin-right: 8%;
-  font-weight: 200;
+  font-weight: 600;
   font-size: 1.3em;
   color: #fff;
 }
@@ -1039,6 +1036,13 @@ body {
   height: 400px;
 }
 
+.repmove{
+  margin-top: -260px;
+  position: relative;
+  width: 100%;
+  // height: 400px;
+}
+
 
 
 .thirdcontainer {
@@ -1327,6 +1331,43 @@ h1 {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   
+  
+  .hleft{
+    text-align: left;
+    margin-left: 22.5%;
+    font-size: 3em;
+}
+  
+  .leadpoints{
+    text-align: left;
+}
+  
+  .whyrent{
+  position: relative;
+  z-index: 90;
+  font-size: 3.5em;
+  text-align: left;
+  margin-left: 7.5%;
+}
+
+.lead{
+  margin-top: 15px;
+  // margin-left: 19%;
+  margin-right: 27%;
+  text-align: left;
+  font-weight: 200;
+  font-size: 1.4em;
+}
+
+.arrow{
+  margin-top: 50px;
+  margin-left: -76%;
+}
+
+.content{
+  margin-top: 270px;
+}
+  
 .navigation{
   display:none;
 }
@@ -1338,7 +1379,7 @@ h1 {
 }
 
 .gradetest{
-  margin-top: -445px;
+  margin-top: -475px;
   position: relative;
   width: 100%;
   height: 850px;
@@ -1348,6 +1389,14 @@ h1 {
     background: linear-gradient(to right, rgba(255,255,255,.8), rgba(255,255,255,.8)); /* Standard syntax (must be last) */
     z-index: -1;
 }  
+
+.repmove{
+  margin-top: -450px;
+  position: relative;
+  width: 100%;
+  // height: 400px;
+}
+
  
 .fourthcontainerrent {
   width: 100%;
@@ -1367,13 +1416,13 @@ h1 {
   width: 100%;
   height: auto;
   z-index: 1;
-  margin-top: 40px;
+  margin-top: -20px;
 }
 
 .rentpoints{
   width: 100%;
-  height: 580px;;
-  margin-bottom: 0px;
+  height: 580px;
+  margin-bottom: 150px;
   clear: both;
 }
 
@@ -1386,7 +1435,7 @@ h1 {
 
 .thirdcontainerdouble{
   height: 300px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .col-lg-2{
@@ -1412,7 +1461,7 @@ h1 {
      .menu{
        display: none;
      }
-  }
+}
   
   .subheader {
     display: block;
@@ -1421,7 +1470,7 @@ h1 {
        margin: 0 auto;
        width: 100%;
      }
-  }
+}
   
   .subtxt{
       display: inline;
@@ -1560,68 +1609,72 @@ input{
   margin-top: 50px;
 }
 
-}
 
-@media screen and (min-width: 992px) {
-.col-md-3{
-  margin-left: 6.5%;
-  margin-right: 0;
-}
-
-.secondcontainerpartest {
-  display:none; 
-}
-
-.macbookgreen{
-  display: none;
-}
-
-.secondcontainerpargreen{
-  display: none;
-}
-
-.secondcontainerpar {
-  margin-top: -40%;
-  text-align: center;
-  margin-bottom: 50px;
-  z-index: 101;
-}
-
-.secondcontainerparrent {
-  margin-top: -37%;
-  text-align: center;
-  margin-bottom: 150px;
-  z-index: 101;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.greendiagonalpar{
-  width: 100%;
-  background-color: transparent;
-  z-index: 90;
-  height: 20%;
-}
-
-.thirdcontainercompany{
-  height: 250px;
-  width: 100%;
-  margin-top: -50px;
-  clear:both;
-}
-
-.thirdcontainercompanyco{
-  height: 250px;
-  width: 100%;
-  margin-top: -50px;
 
 }
-}
+
+// @media screen and (min-width: 992px) {
+  
+  
+// .col-md-3{
+//   margin-left: 6.5%;
+//   margin-right: 0;
+// }
+
+// .secondcontainerpartest {
+//   display:none; 
+// }
+
+// .macbookgreen{
+//   display: none;
+// }
+
+// .secondcontainerpargreen{
+//   display: none;
+// }
+
+// .secondcontainerpar {
+//   margin-top: -40%;
+//   text-align: center;
+//   margin-bottom: 50px;
+//   z-index: 101;
+// }
+
+// .secondcontainerparrent {
+//   margin-top: -37%;
+//   text-align: center;
+//   margin-bottom: 150px;
+//   z-index: 101;
+//   margin-left: 10%;
+//   margin-right: 10%;
+// }
+
+// .greendiagonalpar{
+//   width: 100%;
+//   background-color: transparent;
+//   z-index: 90;
+//   height: 20%;
+// }
+
+// .thirdcontainercompany{
+//   height: 250px;
+//   width: 100%;
+//   margin-top: -50px;
+//   clear:both;
+// }
+
+// .thirdcontainercompanyco{
+//   height: 250px;
+//   width: 100%;
+//   margin-top: -50px;
+
+// }
+// }
 
 /* Deskstop and up */
 @media screen and (min-width: 1024px) {
   
-  .thirdcontainercompany{
+.thirdcontainercompany{
   height: 250px;
   width: 100%;
   margin-top: -50px;
@@ -1629,15 +1682,27 @@ input{
   clear:both;
 }
 
+
+.thirdcontainercompany{
+  height: 250px;
+}
+
+
 .picsmove{
   margin-top:-220px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.7em;
+  color: $secondary-color;
 }
 
  
  .rentpoints{
   width: 100%;
   height: 360px;;
-  margin-bottom: 270px;
+  margin-bottom: 430px;
   clear: both;
 }
 
@@ -1674,10 +1739,8 @@ input{
 
 .thirdcontainer{
   height: 400px;
-}
-
-.thirdcontainercompany{
-  height: 250px;
+  width: 100%;
+  clear:both;
 }
 
 
@@ -1758,26 +1821,29 @@ input{
 }
 
 .content{
-  margin-top: 250px;
+  margin-top: 350px;
 }
 
 .whyrent{
   position: relative;
   z-index: 90;
-  font-size: 4.5em;
+  font-size: 5em;
+  text-align: left;
+  margin-left: 7.5%;
 }
 
 .arrow{
   margin-top: 50px;
+  margin-left: -78%;
 }
 
 .img-responsive{
-  margin-top: -960px;
+  margin-top: -940px;
   z-index: -2;
 }
 
 .gradetest{
-  margin-top: -410px;
+ margin-top: -530px;
   position: relative;
   width: 100%;
   height: 940px;
@@ -1826,6 +1892,7 @@ input{
   font-size: 1.1em;
   z-index: 101;
   text-align: left;
+ 
 }
   
 .pointswhite{
@@ -1841,7 +1908,7 @@ input{
  
 .titlecolortest {
    text-align: left;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.7em;
   color: #fff;
   z-index: 102;
@@ -1902,8 +1969,16 @@ input{
   width: 60%;
 }
 
+.qipad{
+ padding-top: 0px;
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
 .col-md-3{
   margin-left: 6%;
+  // width: 26%;
 }
 
 .greendiagonalpar{
@@ -1930,11 +2005,11 @@ input{
 
 .lead{
   margin-top: 15px;
-  margin-left: 17%;
-  margin-right: 17%;
+  // margin-left: 19%;
+  margin-right: 34%;
+  text-align: left;
   font-weight: 200;
-  font-size: 1.3em;
-
+  font-size: 1.4em;
 }
 
 .leadwhite{
@@ -1951,7 +2026,8 @@ input{
   margin-left: 23%;
   margin-right: 23%;
   font-weight: 200;
-  font-size: 1.1em;
+ font-size: 1.3em;
+ line-height: 1.5em;
 }
 
 .mainpoints{
@@ -2024,13 +2100,29 @@ input{
 
 @media screen and (min-width: 1232px) {
   
+.whyrent{
+  position: relative;
+  z-index: 90;
+  font-size: 7em;
+  text-align: left;
+  margin-left: 7.5%;
+  margin-top: 500px;
+}
+
+.lead{
+  margin-top: 15px;
+  margin-right: 44%;
+  text-align: left;
+  font-size: 1.4em;
+}
+  
 .img-responsive{
-  margin-top: -960px;
+  margin-top: -940px;
   z-index: -2;
 }
 
 .gradetest{
-  margin-top: -460px;
+  margin-top: -680px;
   position: relative;
   width: 100%;
   height: 940px;
@@ -2051,6 +2143,13 @@ input{
    margin-top: -460px;
 }
 
+.repmove{
+  margin-top: -760px;
+  position: relative;
+  width: 100%;
+  // height: 400px;
+}
+
 .secondcontainerparrent {
   margin-top: -40%;
   text-align: center;
@@ -2058,6 +2157,13 @@ input{
   z-index: 101;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.qipad{
+  margin: 0 auto;
+  margin-top: -100px;
+  display: block;
+  width: 75%;
 }
 
 .quote {
@@ -2154,6 +2260,10 @@ input{
   z-index: 1;
   margin-top: 70px;
 } 
+
+.rentpoints{
+  margin-bottom:350px;
+}
 
 }
 
