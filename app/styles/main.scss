@@ -1022,7 +1022,7 @@ body {
   height: 400px;
 }
 
-.textmove{
+.txtmove{
   margin-top: -290px;
   position: relative;
   width: 100%;
@@ -1241,6 +1241,13 @@ body {
   height: 550px;
 }
 
+.txtmove{
+  margin-top: -365px;
+  position: relative;
+  width: 100%;
+  // height: 400px;
+}
+
 
 .fourthcontainerrent {
   width: 100%;
@@ -1338,7 +1345,7 @@ h1 {
     font-size: 3em;
 }
   
-  .leadpoints{
+  .leadpoints2{
     text-align: left;
 }
   
@@ -2100,6 +2107,7 @@ input{
 
 @media screen and (min-width: 1232px) {
   
+  
 .whyrent{
   position: relative;
   z-index: 90;
@@ -2121,6 +2129,12 @@ input{
   z-index: -2;
 }
 
+//   .renthome{
+//   margin-top: 200px;
+//   position: relative;
+//   z-index: -2; 
+// }
+
 .gradetest{
   margin-top: -680px;
   position: relative;
@@ -2134,7 +2148,7 @@ input{
 }
 
 .resptest{
-  margin-top: -924px;
+  margin-top: -1010px;
   z-index: -2;
 }
 
@@ -2148,6 +2162,25 @@ input{
   position: relative;
   width: 100%;
   // height: 400px;
+}
+
+.txtmove{
+  margin-top: -785px;
+  position: relative;
+  width: 100%;
+  // height: 400px;
+}
+
+.rentmove{
+  margin-top:-700px;
+  position: relative;
+  width: 100%;
+  // height: 400px;
+}
+
+.col-md-3{
+  margin-left: 5%;
+  // width: 26%;
 }
 
 .secondcontainerparrent {
@@ -2164,6 +2197,13 @@ input{
   margin-top: -100px;
   display: block;
   width: 75%;
+}
+
+.qphone{
+  margin: 0 auto;
+  margin-top: -120px;
+  display: block;
+  width: 60%;
 }
 
 .quote {
