@@ -5,9 +5,9 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-// *{
-//     outline:1px solid red;
-//   }
+*{
+    outline:1px solid red;
+  }
   
 .rentpoints2{
   margin-top: 220px;
@@ -270,6 +270,48 @@ body {
   font-family: 'proxima_nova_ltlight';
 }
 
+.holding2{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 240px;
+   margin-top: 540px;
+}
+
+.holding3{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 280px;
+   margin-top: 390px;
+}
+
+.holding4{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 240px;
+   margin-top: 440px;
+}
+
+.hspace{
+  width: 100%;
+  height: 50px;
+}
+
+.quote2 {
+  margin-left: 8%;
+  margin-top: -405px;
+  font-weight: 400;
+  font-size: 3em;
+  color: #fff;
+  z-index: 102;
+  line-height: 1.3em;
+  width: 85%;
+  height: 300px;
+
+} 
+
 input{
   position: relative;
   display: block;
@@ -349,6 +391,14 @@ h2 {
   z-index: 102;
 }
 
+.titlecolor2 {
+  font-weight: 600;
+  font-size: 1.7em;
+  color: $secondary-color;
+  z-index: 102;
+}
+
+
 .lead{
   margin-top: 15px;
   margin-left: 8%;
@@ -386,6 +436,7 @@ h2 {
 .pointswhite{
     color: #fff;
  }
+ 
 
 .learn{
   margin-left: 5%;
@@ -497,7 +548,14 @@ fieldset{
 }
 
 .contactmove{
-  margin-top: -370px;
+  margin-top: -300px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.homemove{
+  margin-top: -255px;
   position: relative;
   width: 100%;
   height: 400px;
@@ -590,10 +648,7 @@ fieldset{
 
 
 .greendividerdots{
-  display: block;
-  margin: 0 auto;
-  margin-top: 25px;
-  width: 35px;
+  display: none;
 }
 
 .col-md-3{
@@ -616,7 +671,7 @@ fieldset{
 }
 
 .secondcontainerpar {
-  margin-top: -363px;
+  margin-top: -410px;
   text-align: center;
   margin-bottom: 50px;
   z-index: 101;
@@ -651,8 +706,8 @@ fieldset{
 }
 
 .demoinputsco{
-  margin-top: 6%;
-  height:175px;
+  margin-top: -5%;
+  height: 175px;
   margin-bottom: 0px;
 }
 
@@ -675,6 +730,12 @@ fieldset{
 }
 
 .thirdcontainercompany {
+  margin-top: -20px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.thirdcontainercompanybottom {
   margin-top: -20px;
   text-align: center;
   margin-bottom: 80px;
@@ -776,15 +837,15 @@ fieldset{
 .phone{
   display: block;
   margin: 0 auto;
-  margin-top: 125px;
+  margin-top: 0px;
   width: 77%;
 }
 
 .phonerent{
   display: block;
   margin: 0 auto;
-  margin-top: 125px;
-  width: 30%;
+  margin-top: -50px;
+  width: 60%;
 }
 
 .browsehappy {
@@ -842,6 +903,10 @@ body {
   margin-top: 210px;
 }
 
+
+
+
+
 }
 
 
@@ -861,6 +926,35 @@ body {
    width: 100%;
    height: 350px;
    margin-top: 75px;
+}
+
+.holding2{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 240px;
+   margin-top: 460px;
+}
+
+.holding3{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 280px;
+   margin-top: 420px;
+}
+
+.holding4{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 240px;
+   margin-top: 400px;
+}
+
+.hspace{
+  width: 100%;
+  height: 50px;
 }
 
 .img-responsive{
@@ -907,7 +1001,7 @@ body {
 }
 
 .contactmove{
-  margin-top: -380px;
+  margin-top: -250px;
   position: relative;
   width: 100%;
   height: 400px;
@@ -925,6 +1019,13 @@ body {
 /* Responsive: Portrait phones and up */
 @media screen and (min-width: 400px) {
   
+.greendividerdots{
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 35px;
+}
+  
 .rentpoints{
   margin-top: 50px;
 }
@@ -941,6 +1042,49 @@ body {
    height: 350px;
    margin-top: 0px;
 }
+
+.holding2{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 240px;
+   margin-top: 380px;
+}
+
+.holding3{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 280px;
+   margin-top: 370px;
+}
+
+.holding4{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 240px;
+   margin-top: 330px;
+}
+
+.hspace{
+  width: 100%;
+  height: 0px;
+}
+
+.quote2 {
+  margin-left: 8%;
+  margin-top: -319px;
+  font-weight: 400;
+  font-size: 1.7em;
+  color: #fff;
+  z-index: 102;
+  line-height: 1.3em;
+  width: 85%;
+  height: 165px;
+
+}
+
 
 .fourthcontainermsg {
   width: 100%;
@@ -1030,7 +1174,7 @@ body {
 }
 
 .contactmove{
-  margin-top: -290px;
+  margin-top: -240px;
   position: relative;
   width: 100%;
   height: 400px;
@@ -1043,6 +1187,13 @@ body {
   // height: 400px;
 }
 
+.homemove{
+  margin-top: -240px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
 
 
 .thirdcontainer {
@@ -1051,6 +1202,11 @@ body {
 }
 
 .thirdcontainercompany {
+  margin-top: -10px;
+  text-align: center;
+}
+
+.thirdcontainercompanybottom {
   margin-top: -10px;
   text-align: center;
 }
@@ -1120,21 +1276,21 @@ body {
 .phone{
   display: block;
   margin: 0 auto;
-  margin-top: 170px;
+  margin-top: 50px;
   width: 55%;
 }
 
 .phonerent{
   display: block;
   margin: 0 auto;
-  margin-top: 170px;
+  margin-top: 50px;
   width: 50%;
 }
 
 .dividercontainerbottom {
   width: 100%;
   height: 40px;
-  margin-top: 20%;
+  margin-top: 30%;
   clear: right;
 }
 
@@ -1154,9 +1310,18 @@ body {
   display: none;
 }
 
+
+
 }
 
 @media screen and (min-width: 558px) {
+  
+  .secondcontainerpar {
+  margin-top: -335px;
+  text-align: center;
+  margin-bottom: 50px;
+  z-index: 101;
+}
   
 
 .img-responsive{
@@ -1184,6 +1349,20 @@ body {
   height: 400px;
 }
 
+.homemove{
+  margin-top: -190px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.contactmove{
+  margin-top: -190px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
 .fourthcontainermsg {
   width: 100%;
   height: auto;
@@ -1203,6 +1382,52 @@ body {
 
 @media screen and (min-width: 640px) {
   
+  .holding2{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 140px;
+   margin-top: 330px;
+}
+
+.holding3{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 200px;
+   margin-top: 340px;
+}
+
+.holding4{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 220px;
+   margin-top: 330px;
+}
+
+.hspace{
+  width: 100%;
+  height: 0px;
+}
+
+.quote2 {
+  margin-left: 8%;
+  margin-top: -295px;
+  font-weight: 400;
+  font-size: 1.7em;
+  color: #fff;
+  z-index: 102;
+  line-height: 1.3em;
+  width: 85%;
+  height: 125px;
+
+}
+  
+ .firstcontainer{
+   margin-top: -50px;
+ }
+  
 .img-responsive{
   margin-top: -586px;
   position: relative;
@@ -1219,6 +1444,13 @@ body {
     background: -moz-linear-gradient(right, rgba(255,255,255,.8), rgba(255,255,255,.8)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, rgba(255,255,255,.8), rgba(255,255,255,.8)); /* Standard syntax (must be last) */
     z-index: -1;
+}
+
+.homemove{
+  margin-top: -400px;
+  position: relative;
+  width: 100%;
+  height: 700px;
 } 
 
 .resptest{
@@ -1228,21 +1460,42 @@ body {
 }
 
 .movetest{
-  margin-top: -360px;
+  margin-top: -310px;
   position: relative;
   width: 100%;
   height: 550px;
 } 
 
 .contactmove{
-    margin-top: -400px;
+  margin-top: -310px;
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+
+.contmove{
+  margin-top: -260px;
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+
+.leadmove{
+  margin-top: -320px;
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+
+.repmove{
+  margin-top: -290px;
   position: relative;
   width: 100%;
   height: 550px;
 }
 
 .txtmove{
-  margin-top: -365px;
+  margin-top: -310px;
   position: relative;
   width: 100%;
   // height: 400px;
@@ -1284,6 +1537,11 @@ h1 {
 }
 
 .thirdcontainercompany {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.thirdcontainercompanybottom {
   margin-top: 100px;
   text-align: center;
 }
@@ -1338,18 +1596,87 @@ h1 {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   
+// .holding2{
+//    position: relative;
+//    z-index: 1;
+//    width: 100%;
+//    height: 100px;
+//    margin-top: 330px;
+// }
+
+// .holding3{
+//    position: relative;
+//    z-index: 1;
+//    width: 100%;
+//    height: 200px;
+//    margin-top: 140px;
+// }
+
+// .holding4{
+//    position: relative;
+//    z-index: 1;
+//    width: 100%;
+//    height: 220px;
+//    margin-top: 330px;
+// }
+
+// .hspace{
+//   width: 100%;
+//   height: 0px;
+// }
+
+
   
-  .hleft{
+  .quote {
+  margin-left: 8%;
+  font-weight: 400;
+  font-size: 3em;
+  color: #fff;
+  z-index: 102;
+  line-height: 1.2em;
+  width: 85%;
+  margin-top: -70px;
+} 
+
+
+  
+  
+ .whitebar{
+   position: relative;
+   width: 100%;
+   height: 500px;
+   margin-top: 500px;
+ }
+  
+  
+.hleft{
     text-align: left;
     margin-left: 22.5%;
     font-size: 3em;
 }
+
+.hcenter{
+    // text-align: left;
+    // margin-left: 22.5%;
+    font-size: 3em;
+    color: $secondary-color;
+}
+
+.mainpoints{
+  margin-top: 15px;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-weight: 200;
+  font-size: 1.4em;
+  z-index: 101;
+}
   
-  .leadpoints2{
+  
+.leadpoints2{
     text-align: left;
 }
   
-  .whyrent{
+.whyrent{
   position: relative;
   z-index: 90;
   font-size: 3.5em;
@@ -1399,6 +1726,13 @@ h1 {
 
 .repmove{
   margin-top: -450px;
+  position: relative;
+  width: 100%;
+  // height: 400px;
+}
+
+.contactmove{
+  margin-top: -390px;
   position: relative;
   width: 100%;
   // height: 400px;
@@ -1470,7 +1804,7 @@ h1 {
      }
 }
   
-  .subheader {
+.subheader {
     display: block;
     z-index: 98;
      .nav {
@@ -1479,14 +1813,14 @@ h1 {
      }
 }
   
-  .subtxt{
+.subtxt{
       display: inline;
       width: 100px;
       margin: 0 auto;
       margin-left: 5%;
       font-weight: 400;
       font-size: 1em;
-  }
+ }
   
   .dropnav{
     display: block;
@@ -1554,13 +1888,17 @@ input{
   color:$secondary-color;
 }
 
+.hdemo{
+  font-size: 4em;
+}
+
 .demoinputs{
   margin-top: 2%;
   height:175px;
 }
 
 .secondcontainerpar {
-  margin-top: -41%;
+  margin-top: -49%;
   text-align: center;
   margin-bottom: 50px;
   z-index: 101;
@@ -1596,6 +1934,11 @@ input{
   text-align: center;
 }
 
+.thirdcontainercompanybottom {
+  margin-top: -20px;
+  text-align: center;
+}
+
 .secondcontainerpartest {
   display:none; 
 }
@@ -1616,6 +1959,50 @@ input{
   margin-top: 50px;
 }
 
+.demoinputsco{
+  margin-top: 6%;
+  height:175px;
+  margin-bottom: 0px;
+}
+
+.holding2{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 210px;
+   margin-top: 450px;
+}
+
+.holding3{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 280px;
+   margin-top: 500px;
+}
+
+.holding4{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 270px;
+   margin-top: 440px;
+
+}
+
+.quote2 {
+  margin-left: 8%;
+  margin-top: -340px;
+  font-weight: 400;
+  font-size: 2em;
+  color: #fff;
+  z-index: 102;
+  line-height: 1.3em;
+  width: 85%;
+  height: 165px;
+
+}  
+  
 
 
 }
@@ -1641,7 +2028,7 @@ input{
 // }
 
 // .secondcontainerpar {
-//   margin-top: -40%;
+//   margin-top: -42%;
 //   text-align: center;
 //   margin-bottom: 50px;
 //   z-index: 101;
@@ -1679,7 +2066,18 @@ input{
 // }
 
 /* Deskstop and up */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
+  
+ .demoinputsco{
+  margin-top: 12%;
+  height:175px;
+  margin-bottom: 0px;
+}
+  
+.hspace{
+  width: 100%;
+  height: 70px;
+}
   
 .thirdcontainercompany{
   height: 250px;
@@ -1689,11 +2087,13 @@ input{
   clear:both;
 }
 
-
-.thirdcontainercompany{
-  height: 250px;
+.thirdcontainercompanybottom{
+  height: 350px;
+  width: 100%;
+  margin-top: -50px;
+  margin-bottom: 140px;
+  clear:both;
 }
-
 
 .picsmove{
   margin-top:-220px;
@@ -1705,7 +2105,6 @@ h2 {
   color: $secondary-color;
 }
 
- 
  .rentpoints{
   width: 100%;
   height: 360px;;
@@ -1745,7 +2144,7 @@ h2 {
 }
 
 .thirdcontainer{
-  height: 400px;
+  height: 500px;
   width: 100%;
   clear:both;
 }
@@ -1872,8 +2271,8 @@ h2 {
  .macbookgreen{
   display: block;
   width: 85%;
-  margin-top: 0px;
-  z-index: 101;
+  // margin-top: -350px;
+  z-index: 2;
 }
 
  .macbookblue{
@@ -1891,15 +2290,38 @@ h2 {
    margin-top: -150px;
 }
 
+.holding2{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 450px;
+   margin-top: 440px;
+}
+
+.holding3{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 280px;
+   margin-top: 740px;
+}
+
+.holding4{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 510px;
+   margin-top: 440px;
+}
+
 .mainpointstest{
   margin-top: 15px;
   margin-left: 0%;
   margin-right: 20%;
   font-weight: 200;
-  font-size: 1.1em;
+  font-size: 1.4em;
   z-index: 101;
   text-align: left;
- 
 }
   
 .pointswhite{
@@ -1916,8 +2338,16 @@ h2 {
 .titlecolortest {
    text-align: left;
   font-weight: 600;
-  font-size: 1.7em;
+  font-size: 3em;
   color: #fff;
+  z-index: 102;
+}
+
+.titlecolortest2 {
+   text-align: left;
+  font-weight: 600;
+  font-size: 3em;
+  color: $secondary-color;
   z-index: 102;
 }
 
@@ -1925,7 +2355,7 @@ h2 {
   display: block;
   // float: left;
   margin-left: 12%;
-  margin-top: -64%;
+  margin-top: -70%;
   text-align: center;
   margin-bottom: -425px;
   z-index: 101;
@@ -1949,7 +2379,7 @@ h2 {
   display: block;
   // float: left;
   margin-left: 52%;
-  margin-top: -65%;
+  margin-top: -76%;
   text-align: center;
   margin-bottom: -445px;
   z-index: 101;
@@ -1970,7 +2400,7 @@ h2 {
 }
 
 .imac{
- padding-top: 60px;
+ padding-top: 95px;
   display: block;
   margin: 0 auto;
   width: 60%;
@@ -1984,7 +2414,7 @@ h2 {
 }
 
 .col-md-3{
-  margin-left: 6%;
+  margin-left: 5%;
   // width: 26%;
 }
 
@@ -2002,7 +2432,7 @@ input{
   
 .secondcontainerpar {
   display: none;
-  margin-top: -32%;
+  margin-top: -27%;
   text-align: center;
   margin-bottom: 50px;
   z-index: 101;
@@ -2042,7 +2472,7 @@ input{
   margin-left: 18%;
   margin-right: 18%;
   font-weight: 200;
-  font-size: 1.1em;
+  font-size: 1.4em;
   z-index: 101;
 }
   
@@ -2060,13 +2490,13 @@ input{
   width: 100%;
   height: auto;
   z-index: 1;
-  margin-top: -120px;
+  margin-top: 0px;
 }
 
 .dividercontainerbottom{
    margin-bottom: 40px;
    height: 40px;
-   margin-top: 150px;
+   margin-top: 180px;
  }
 
 .secondcontainerbottom{
@@ -2100,13 +2530,70 @@ input{
   text-align: center;
   z-index: 120;
   clear:both;
-  margin-top: 400px;
+  margin-top: 600px;
 }
 
 }
 
 @media screen and (min-width: 1232px) {
   
+ .demoinputsco{
+  margin-top: 7%;
+  height:175px;
+  margin-bottom: 0px;
+}
+
+// .holding{
+//    position: relative;
+//    z-index: 101;
+//    width: 100%;
+//    height: 400px;
+//    margin-top: -150px;
+// }
+
+  .holding2{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 400px;
+   margin-top: 530px;
+}
+
+
+.holding3{
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 280px;
+   margin-top: 990px;
+}
+
+.holding4{
+   position: relative;
+   z-index: -1;
+   width: 100%;
+   height: 610px;
+   margin-top: 400px;
+  //  margin-bottom: 100px;
+}
+
+.hspace{
+  width: 100%;
+  height: 130px;
+}
+
+.quote2 {
+  margin-left: 8%;
+  margin-top: -400px;
+  font-weight: 400;
+  font-size: 2em;
+  color: #fff;
+  z-index: 102;
+  line-height: 1.3em;
+  width: 85%;
+  height: 255px;
+
+}  
   
 .whyrent{
   position: relative;
@@ -2178,6 +2665,20 @@ input{
   // height: 400px;
 }
 
+.leadmove{
+  margin-top:-700px;
+  position: relative;
+  width: 100%;
+  // height: 400px;
+}
+
+.contactmove{
+  margin-top:-700px;
+  position: relative;
+  width: 100%;
+  // height: 400px;
+}
+
 .col-md-3{
   margin-left: 5%;
   // width: 26%;
@@ -2207,11 +2708,13 @@ input{
 }
 
 .quote {
+  margin-left: 8%;
   font-weight: 400;
   font-size: 3.5em;
   color: #fff;
   z-index: 102;
   line-height: 1.2em;
+  width: 85%;
 } 
 
 .greendiagonalpar{
@@ -2221,11 +2724,15 @@ input{
   height: 30%;
 }
 
+.thirdcontainer{
+  height: 400px;
+}
+
 .secondcontainerpartest {
   display: block;
   // float: left;
   margin-left: 18%;
-  margin-top: -58%;
+  margin-top: -60%;
   text-align: center;
   margin-bottom: -455px;
   z-index: 101;
@@ -2236,19 +2743,19 @@ input{
   display: block;
   position: relative;
   // float: left;
-  // margin-top: -450px;
+  // margin-top: 50px;
   margin-left: 40%;
   width: 49%;
   height: auto;
   z-index: 1;
-  margin-top: 10px;
+  margin-top: -90px;
   z-index: 101;
 }
 
 .secondcontainerpartestright {
   display: block;
   margin-left: 52%;
-  margin-top: -62%;
+  margin-top: -64%;
   text-align: center;
   margin-bottom: -455px;
   z-index: 101;
@@ -2262,7 +2769,7 @@ input{
   width: 49%;
   height: auto;
   z-index: 1;
-  margin-top: -50px;
+  margin-top: -150px;
   z-index: 101;
 }
 
@@ -2299,6 +2806,13 @@ input{
   height: auto;
   z-index: 1;
   margin-top: 70px;
+} 
+
+.fourthcontainerbar {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  margin-top: 30px;
 } 
 
 .rentpoints{
