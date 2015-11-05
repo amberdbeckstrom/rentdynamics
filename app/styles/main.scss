@@ -5,9 +5,9 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-*{
-    outline:1px solid red;
-  }
+// *{
+//     outline:1px solid red;
+//   }
   
 .rentpoints2{
   margin-top: 220px;
@@ -422,6 +422,15 @@ h2 {
   margin-right: 23%;
   font-weight: 200;
   font-size: 1.1em;
+}
+
+.companypoints{
+   margin-top: 15px;
+  margin-left: 12%;
+  margin-right: 12%;
+  font-weight: 200;
+  font-size: 1.4em;
+
 }
 
 .mainpoints{
@@ -970,7 +979,7 @@ body {
 }
 
   .conthome{
-  margin-top: -260px;
+  margin-top: -300px;
   position: relative;
   z-index: -2; 
 }
@@ -1002,6 +1011,13 @@ body {
 
 .contactmove{
   margin-top: -250px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.contactmove{
+  margin-top: -240px;
   position: relative;
   width: 100%;
   height: 400px;
@@ -1114,7 +1130,7 @@ body {
 }
 
   .conthome{
-  margin-top: -360px;
+  margin-top: -385px;
   position: relative;
   z-index: -2; 
 }
@@ -1145,12 +1161,21 @@ body {
     z-index: -1;
 }
 
+.contmove{
+  margin-top: -200px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
 .movetest{
   margin-top: -240px;
   position: relative;
   width: 100%;
   height: 400px;
 }
+
+
 
 .leadmove{
   margin-top: -290px;
@@ -1330,6 +1355,13 @@ body {
   z-index: -2; 
 }
 
+.conthome{
+  margin-top: -405px;
+  position: relative;
+  z-index: -2; 
+}
+
+
 .gradetest{
   margin-top: -340px;
   position: relative;
@@ -1340,6 +1372,13 @@ body {
     background: -moz-linear-gradient(right, rgba(255,255,255,.8), rgba(255,255,255,.8)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, rgba(255,255,255,.8), rgba(255,255,255,.8)); /* Standard syntax (must be last) */
     z-index: -1;
+}
+
+.contmove{
+  margin-top: -185px;
+  position: relative;
+  width: 100%;
+  height: 400px;
 }
 
 .movetest{
@@ -1712,6 +1751,13 @@ h1 {
   z-index: -2; 
 }
 
+.conthome{
+  margin-top: -654px;
+  position: relative;
+  z-index: -2; 
+}
+
+
 .gradetest{
   margin-top: -475px;
   position: relative;
@@ -1737,6 +1783,14 @@ h1 {
   width: 100%;
   // height: 400px;
 }
+
+.contmove{
+  margin-top: -305px;
+  position: relative;
+  width: 100%;
+  height: 650px;
+}
+
 
  
 .fourthcontainerrent {
@@ -2082,8 +2136,8 @@ input{
 .thirdcontainercompany{
   height: 250px;
   width: 100%;
-  margin-top: -50px;
-  margin-bottom: 140px;
+  margin-top: -120px;
+  margin-bottom: 120px;
   clear:both;
 }
 
@@ -2248,6 +2302,12 @@ h2 {
   z-index: -2;
 }
 
+.conthome{
+  margin-top: -854px;
+  position: relative;
+  z-index: -2; 
+}
+
 .gradetest{
  margin-top: -530px;
   position: relative;
@@ -2258,6 +2318,13 @@ h2 {
     background: -moz-linear-gradient(right, rgba(255,255,255,.8), rgba(255,255,255,.8)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, rgba(255,255,255,.8), rgba(255,255,255,.8)); /* Standard syntax (must be last) */
     z-index: -1;
+}
+
+.contmove{
+  margin-top: -390px;
+  position: relative;
+  width: 100%;
+  height: 850px;
 }
   
  .macbook{
@@ -2406,6 +2473,10 @@ h2 {
   width: 60%;
 }
 
+.headset{
+  padding-top: 20px;
+}
+
 .qipad{
  padding-top: 0px;
   display: block;
@@ -2501,7 +2572,7 @@ input{
 
 .secondcontainerbottom{
   width: 100%;
-  height: 150px;
+  height: 90px;
 }
 
 .img-responsive-grey{
@@ -2537,6 +2608,11 @@ input{
 
 @media screen and (min-width: 1232px) {
   
+  .headset{
+  // padding-top: 20px;
+  margin-top: 90px;
+}
+  
  .demoinputsco{
   margin-top: 7%;
   height:175px;
@@ -2565,7 +2641,7 @@ input{
    z-index: 1;
    width: 100%;
    height: 280px;
-   margin-top: 990px;
+   margin-top: 890px;
 }
 
 .holding4{
@@ -2573,7 +2649,7 @@ input{
    z-index: -1;
    width: 100%;
    height: 610px;
-   margin-top: 400px;
+   margin-top: 300px;
   //  margin-bottom: 100px;
 }
 
@@ -2616,11 +2692,17 @@ input{
   z-index: -2;
 }
 
-//   .renthome{
-//   margin-top: 200px;
-//   position: relative;
-//   z-index: -2; 
-// }
+.resptest{
+  margin-top: -1010px;
+  z-index: -2;
+}
+
+
+.conthome{
+  margin-top: -935px;
+  position: relative;
+  z-index: -2; 
+}
 
 .gradetest{
   margin-top: -680px;
@@ -2634,10 +2716,13 @@ input{
     z-index: -1;
 }
 
-.resptest{
-  margin-top: -1010px;
-  z-index: -2;
+.contmove{
+  margin-top: -680px;
+  position: relative;
+  width: 100%;
+  height: 1050px;
 }
+
 
 .movetest{
    height: 1040px;
@@ -2678,6 +2763,15 @@ input{
   width: 100%;
   // height: 400px;
 }
+
+.homemove{
+  margin-top:-600px;
+  position: relative;
+  width: 100%;
+  // height: 400px;
+}
+
+
 
 .col-md-3{
   margin-left: 5%;
@@ -2833,6 +2927,12 @@ input{
   z-index: -2;
 }
 
+.conthome{
+  margin-top: -835px;
+  position: relative;
+  z-index: -2; 
+}
+
 .gradetest{
   margin-top: -560px;
   position: relative;
@@ -2844,12 +2944,26 @@ input{
     background: linear-gradient(to right, rgba(255,255,255,.8), rgba(255,255,255,.8)); /* Standard syntax (must be last) */
     z-index: -1;
 }
+
+.contmove{
+  margin-top: -680px;
+  position: relative;
+  width: 100%;
+  height: 950px;
+}
   
 .secondcontainerpar {
   margin-top: -21%;
   text-align: center;
   margin-bottom: 50px;
   z-index: 101;
+}
+
+.homemove{
+  margin-top:-600px;
+  position: relative;
+  width: 100%;
+  // height: 400px;
 }
 
 .phone{
