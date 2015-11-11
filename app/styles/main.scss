@@ -105,14 +105,12 @@ a:hover {
   display: none;
 }
 
-// $font-stack: proxima;
+
 $primary-color: #444444;
 $secondary-color: #7BBC28;
 
 h1 {
   font-family: proxima_nova_rgregular;
-  // font-family: proxima_nova_ltlight, sans-serif;
-  // font-weight: 600;
   font-size: 2.5em;
   color: $secondary-color;
 }
@@ -335,7 +333,6 @@ input:focus{
   font-size: 1.2em;
   color:$secondary-color;
   box-shadow: none;
-  // box-shadow: 0 0 5px 1px $secondary-color;
   border:1px solid #ccc;
   outline: 0;
 }
@@ -501,12 +498,10 @@ h2 {
   z-index: 120;
 }
 
-/* Main marketing message and sign up button */
 .firstcontainer {
   display: block;
   margin-top: 114px;
   text-align: center;
-  // z-index: 120;
   .btn {
     font-size: 21px;
     padding: 14px 24px;
@@ -516,10 +511,6 @@ h2 {
 fieldset{
   margin-bottom: 20px;
 }
-
-// form{
-//   margin-bottom: 170px;
-// }
 
 .img-responsive{
   margin-top: -400px;
@@ -608,7 +599,6 @@ fieldset{
 
 .dividerdots{
   float: left;
-  // margin: 0 auto;
   width: 35px;
   margin-top: -13px;
 }
@@ -627,7 +617,6 @@ fieldset{
 .dividerlinewhite{
   float: left;
   margin-left: 10px;
-  // margin-right: 10px;
   margin-top: 12px;
   height: 1px;
   width: 90px;
@@ -674,7 +663,6 @@ fieldset{
 
 .secondcontainerdemo {
   padding-top: 130px;
-  // margin-top: 130px;
   text-align: center;
   margin-bottom: 50px;
   z-index: 1;
@@ -865,13 +853,11 @@ fieldset{
   padding: 0.2em 0;
 }
 
-/* Space out content a bit */
 body {
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
-  /* Make the masthead heading the same height as the navigation */
  h3 {
     margin-top: 0;
     margin-bottom: 0;
@@ -879,7 +865,6 @@ body {
     padding-bottom: 19px;
   }
 
-/* Custom page footer */
 .footer {
   padding-left: 15px;
   padding-right: 15px;
@@ -892,8 +877,6 @@ body {
   z-index: 120;
 }
 
-
-
 .glyphicon{
   margin-top: 28px;
 }
@@ -902,7 +885,6 @@ body {
   margin: 30px 0;
 }
 
-/* Supporting marketing content */
 .marketing {
   margin: 40px 0;
   p + h4 {
@@ -914,11 +896,7 @@ body {
 }
 
 
-
-
-
 }
-
 
 @media screen and (min-width: 321px) {
   
@@ -1210,7 +1188,6 @@ body {
   margin-top: -265px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 .homemove{
@@ -1243,15 +1220,10 @@ body {
   margin-bottom: 0px;
 }
 
-// .firstcontainer{
-//   height: 700px;
-// }
-
 .arrow{
   margin-top: 100px;
 }
 
-/* Main marketing message and sign up button */
 .secondcontainer {
   margin-top: 50px;
   text-align: center;
@@ -1335,8 +1307,6 @@ body {
 .secondcontainerpargreen{
   display: none;
 }
-
-
 
 }
 
@@ -1557,7 +1527,6 @@ body {
   margin-top: -320px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 
@@ -1655,37 +1624,6 @@ h1 {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   
-// .holding2{
-//    position: relative;
-//    z-index: 1;
-//    width: 100%;
-//    height: 100px;
-//    margin-top: 330px;
-// }
-
-// .holding3{
-//    position: relative;
-//    z-index: 1;
-//    width: 100%;
-//    height: 200px;
-//    margin-top: 140px;
-// }
-
-// .holding4{
-//    position: relative;
-//    z-index: 1;
-//    width: 100%;
-//    height: 220px;
-//    margin-top: 330px;
-// }
-
-// .hspace{
-//   width: 100%;
-//   height: 0px;
-// }
-
-
-  
   .quote {
   margin-left: 8%;
   font-weight: 400;
@@ -1697,9 +1635,6 @@ h1 {
   margin-top: -70px;
 } 
 
-
-  
-  
  .whitebar{
    position: relative;
    width: 100%;
@@ -1715,8 +1650,6 @@ h1 {
 }
 
 .hcenter{
-    // text-align: left;
-    // margin-left: 22.5%;
     font-size: 3em;
     color: $secondary-color;
 }
@@ -1745,7 +1678,6 @@ h1 {
 
 .lead{
   margin-top: 15px;
-  // margin-left: 19%;
   margin-right: 27%;
   text-align: left;
   font-weight: 200;
@@ -1800,21 +1732,18 @@ h1 {
   margin-top: -390px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 .homemove{
   margin-top: -550px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 .contactmove{
   margin-top: -390px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 .contmove{
@@ -1824,8 +1753,6 @@ h1 {
   height: 650px;
 }
 
-
- 
 .fourthcontainerrent {
   width: 100%;
   height: auto;
@@ -1920,8 +1847,7 @@ h1 {
     text-decoration: none;
     color: $primary-color;
   }
-  
-  
+
   label{
        display: none;
   }
@@ -2089,68 +2015,9 @@ input{
   height: 165px;
 
 }  
-  
 
 
 }
-
-// @media screen and (min-width: 992px) {
-  
-  
-// .col-md-3{
-//   margin-left: 6.5%;
-//   margin-right: 0;
-// }
-
-// .secondcontainerpartest {
-//   display:none; 
-// }
-
-// .macbookgreen{
-//   display: none;
-// }
-
-// .secondcontainerpargreen{
-//   display: none;
-// }
-
-// .secondcontainerpar {
-//   margin-top: -42%;
-//   text-align: center;
-//   margin-bottom: 50px;
-//   z-index: 101;
-// }
-
-// .secondcontainerparrent {
-//   margin-top: -37%;
-//   text-align: center;
-//   margin-bottom: 150px;
-//   z-index: 101;
-//   margin-left: 10%;
-//   margin-right: 10%;
-// }
-
-// .greendiagonalpar{
-//   width: 100%;
-//   background-color: transparent;
-//   z-index: 90;
-//   height: 20%;
-// }
-
-// .thirdcontainercompany{
-//   height: 250px;
-//   width: 100%;
-//   margin-top: -50px;
-//   clear:both;
-// }
-
-// .thirdcontainercompanyco{
-//   height: 250px;
-//   width: 100%;
-//   margin-top: -50px;
-
-// }
-// }
 
 /* Deskstop and up */
 @media screen and (min-width: 992px) {
@@ -2400,13 +2267,6 @@ h2 {
   height: 850px;
 }
 
-// .txtmove{
-//   margin-top: -144px;
-//   position: relative;
-//   z-index: -2; 
-// }
-  
-
 .contactmove{
   margin-top: -490px;
   position: relative;
@@ -2421,9 +2281,6 @@ h2 {
   height: 850px;
 }
 
-
-
-
  .macbook{
   display: block;
   margin: 0 auto;
@@ -2435,7 +2292,6 @@ h2 {
  .macbookgreen{
   display: block;
   width: 85%;
-  // margin-top: -350px;
   z-index: 2;
 }
 
@@ -2517,7 +2373,6 @@ h2 {
 
 .secondcontainerpartest {
   display: block;
-  // float: left;
   margin-left: 12%;
   margin-top: -70%;
   text-align: center;
@@ -2529,8 +2384,6 @@ h2 {
 .secondcontainerpargreen {
   display: block;
   position: relative;
-  // float: left;
-  // margin-top: -450px;
   margin-left: 43%;
   width: 49%;
   height: auto;
@@ -2541,7 +2394,6 @@ h2 {
 
 .secondcontainerpartestright {
   display: block;
-  // float: left;
   margin-left: 52%;
   margin-top: -76%;
   text-align: center;
@@ -2553,13 +2405,10 @@ h2 {
 .secondcontainerparblue {
   display: block;
   position: relative;
-  // float: left;
-  // margin-top: -450px;
   margin-left: 5%;
   width: 49%;
   height: auto;
   z-index: 1;
-  // margin-top: -55px;
   z-index: 101;
 }
 
@@ -2583,7 +2432,6 @@ h2 {
 
 .col-md-3{
   margin-left: 5%;
-  // width: 26%;
 }
 
 .greendiagonalpar{
@@ -2610,7 +2458,6 @@ input{
 
 .lead{
   margin-top: 15px;
-  // margin-left: 19%;
   margin-right: 34%;
   text-align: left;
   font-weight: 200;
@@ -2706,7 +2553,6 @@ input{
 @media screen and (min-width: 1232px) {
   
   .headset{
-  // padding-top: 20px;
   margin-top: 90px;
 }
   
@@ -2716,15 +2562,7 @@ input{
   margin-bottom: 0px;
 }
 
-// .holding{
-//    position: relative;
-//    z-index: 101;
-//    width: 100%;
-//    height: 400px;
-//    margin-top: -150px;
-// }
-
-  .holding2{
+.holding2{
    position: relative;
    z-index: 1;
    width: 100%;
@@ -2747,7 +2585,6 @@ input{
    width: 100%;
    height: 610px;
    margin-top: 300px;
-  //  margin-bottom: 100px;
 }
 
 .hspace{
@@ -2836,49 +2673,42 @@ input{
   margin-top: -760px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 .txtmove{
   margin-top: -785px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 .rentmove{
   margin-top:-700px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 .leadmove{
   margin-top:-700px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 .contactmove{
   margin-top:-700px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 .homemove{
   margin-top:-600px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 
 
 .col-md-3{
   margin-left: 5%;
-  // width: 26%;
 }
 
 .secondcontainerparrent {
@@ -2927,7 +2757,6 @@ input{
 
 .secondcontainerpartest {
   display: block;
-  // float: left;
   margin-left: 18%;
   margin-top: -60%;
   text-align: center;
@@ -2939,8 +2768,6 @@ input{
 .secondcontainerpargreen {
   display: block;
   position: relative;
-  // float: left;
-  // margin-top: 50px;
   margin-left: 40%;
   width: 49%;
   height: auto;
@@ -3066,28 +2893,24 @@ input{
   margin-top:-630px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 .rentmove{
   margin-top:-670px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 .repmove{
   margin-top: -600px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 .contactmove{
   margin-top:-610px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
   
   
@@ -3095,7 +2918,6 @@ input{
   margin-top: -650px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
  
 .secondcontainerpar {
@@ -3109,7 +2931,6 @@ input{
   margin-top:-640px;
   position: relative;
   width: 100%;
-  // height: 400px;
 }
 
 .phone{
@@ -3193,11 +3014,8 @@ input{
    width: 100%;
    height: 610px;
    margin-top: 450px;
-  //  margin-bottom: 100px;
 }
-  
 
-  
     .lead{
   margin-top: 15px;
   margin-left: 7.8%;
@@ -3216,7 +3034,6 @@ input{
 
 .secondcontainerpartest {
   display: block;
-  // float: left;
   margin-left: 18%;
   margin-top: -49%;
   text-align: center;
@@ -3228,8 +3045,6 @@ input{
 .secondcontainerpargreen {
   display: block;
   position: relative;
-  // float: left;
-  // margin-top: -450px;
   margin-left: 40%;
   width: 49%;
   height: auto;
@@ -3289,34 +3104,3 @@ input{
 }
 
 }
-
-// @media screen and (min-width: 1800px) {
-  
-//   .lead{
-//   margin-top: 15px;
-//   margin-left: 8%;
-//   margin-right: 30%;
-//   font-weight: 200;
-//   font-size: 1.3em;
-//   width: 700px;
-// }
-
-// .mainpoints{
-//   margin-top: 15px;
-//   margin-left: 27%;
-//   margin-right: 27%;
-//   font-weight: 200;
-//   font-size: 1.1em;
-//   z-index: 101;
-// }
-
-// .phonerent{
-//   display: block;
-//   margin: 0 auto;
-//   margin-top: 175px;
-//   width: 15%;
-// }
-  
-  
-  
-// }
